@@ -1,43 +1,62 @@
-address, article, aside, blockquote, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, nav a, ol, p, section, span, ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
- }
- 
- /* Set the default page element styles */
- 
- body {
-    margin: 0px;
-    width: 100%;
- }
- 
- body {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 100%;
-    font-weight: inherit;
-    line-height: 1.2em;
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    vertical-align: baseline;
- }
- 
- ul, ol {
-    list-style: none;
- }
- 
- nav ul {
-    list-style: none;
-    list-style-image: none;
- }
- 
- nav a {
-    text-decoration: none;
- }
- 
+@charset "UTF-8";
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Montserrat', sans-serif;  */
+
+html{
+   background: linear-gradient(white, rgb(236, 240, 202));
+   font-family: 'Montserrat', sans-serif; 
+   height: 100%;
+}
+
+/* header styles */
+#bar{
+   background-color: rgb(51, 51, 51);
+   height: 5px;
+}
+header{
+   width: 100%;
+}
+header img{
+   width: 25px;
+}
+header h1{
+   padding-top: 10px;
+   padding-left: 10px;
+   height: 50px;
+   font-size: 25px;
+   font-family: 'Nunito', sans-serif;
+   background-color: white;
+}
+
+/* navigation styles */
+nav{
+   display: block;
+   height: 50px;
+   width: 100%;
+}
+#spring{
+   color: white;
+   background-color:rgb(235, 119, 245);
+}
+#summer{
+   background-color: yellow;
+   color: black;
+}
+#fall{
+   background-color: orange;
+   color: black;
+}
+#winter{
+   background-color: rgb(105, 223, 231);
+   color: black;
+}
+/* body styles */
+
+
+/* footer styles */
+footer{
+   color: grey;
+   font-size: 10px;
+   text-align: center;
+}
