@@ -12,7 +12,205 @@ html {
     background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: Signika Negative, Asap, sans-serif;
+    
   }
-  
 
+  section{
+    height:100%;
+    width:100%;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    }
+    .leaves{
+
+    }
+    .leaves2{
+
+    }
+    .leaves3{
+      
+    }
+   
+    .leaves{
+        position:absolute ;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        transform: rotateY(-30deg);
+        transform: translate3d(50deg);
+        transform: rotate3d(1,1.5,2,-10deg);
+    }
+    .leaves div{
+    position:absolute ;
+    display:block ;
+    }
+    .leaves div:nth-child(1){
+        left:20%; 
+        animation:falling 9s linear infinite ;
+        animation-delay:-1s;
+    
+    }
+    .leaves div:nth-child(2){
+        left:70%; 
+        animation:falling 17s linear infinite ;
+        animation-delay:-3s;
+    }
+    .leaves div:nth-child(3){
+        left:10%; 
+        animation:falling 23s linear infinite ;
+        animation-delay:-5s;
+        
+    }
+    .leaves div:nth-child(4){
+        left:50%; 
+       animation:falling 18s linear infinite ; 
+       animation-delay:-6s;
+    }
+    .leaves div:nth-child(5){
+        left:85%; 
+        animation:falling 15s linear infinite ;
+        animation-delay:-8s;
+    }
+    .leaves div:nth-child(6){
+        left:15%; 
+        animation:falling 12s linear infinite ;
+        animation-delay:-10s;
+    }
+    .leaves div:nth-child(7){
+        left:90%; 
+        animation:falling 13s linear infinite ;
+        animation-delay:-4s;
+    }
+    .leaves2{
+      position:absolute ;
+      width:100%;
+      height:100%;
+      top:0;
+      left:0;
+  }
+  .leaves2 div{
+  position:absolute ;
+  display:block ;
+  transform: rotateY(-30deg);
+  transform: translate3d(50deg);
+  transform: rotate3d(1,1.5,2,-15deg);
+  }
+  .leaves2 div:nth-child(1){
+      left:10%; 
+      animation:falling 17s linear infinite ;
+      animation-delay:-3s;
   
+  }
+  .leaves2 div:nth-child(2){
+      left:60%; 
+      animation:falling 15s linear infinite ;
+      animation-delay:-1s;
+  }
+  .leaves2 div:nth-child(3){
+      left:17%; 
+      animation:falling 26s linear infinite ;
+      animation-delay:-9s;
+      
+  }
+  .leaves2 div:nth-child(4){
+      left:53%; 
+     animation:falling 19s linear infinite ; 
+     animation-delay:-3s;
+  }
+  .leaves2 div:nth-child(5){
+      left:75%; 
+      animation:falling 20s linear infinite ;
+      animation-delay:-7s;
+  }
+  .leaves2 div:nth-child(6){
+      left:15%; 
+      animation:falling 17s linear infinite ;
+      animation-delay:-6s;
+  }
+  .leaves2 div:nth-child(7){
+      left:80%; 
+      animation:falling 11s linear infinite ;
+      animation-delay:-10s;
+  }
+  .leaves3{
+    position:absolute ;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+.leaves3 div{
+position:absolute ;
+display: block;
+transform: rotateY(-30deg);
+transform: translate3d(50deg);
+transform: rotate3d(1,1.5,2,10deg);
+}
+.leaves3 div:nth-child(1){
+    left:25%; 
+    animation:falling 15s linear infinite ;
+    animation-delay:-9s;
+
+}
+.leaves3 div:nth-child(2){
+    left:66%; 
+    animation:falling 14s linear infinite ;
+    animation-delay:-4s;
+}
+.leaves3 div:nth-child(3){
+    left:30%; 
+    animation:falling 20s linear infinite ;
+    animation-delay:-5s;
+    
+}
+.leaves3 div:nth-child(4){
+    left:58%; 
+   animation:falling 12s linear infinite ; 
+   animation-delay:-8s;
+}
+.leaves3 div:nth-child(5){
+    left:78%; 
+    animation:falling 11s linear infinite ;
+    animation-delay:-7s;
+}
+.leaves3 div:nth-child(6){
+    left:33%; 
+    animation:falling 16s linear infinite ;
+    animation-delay:-8s;
+}
+.leaves3 div:nth-child(7){
+    left:92%; 
+    animation:falling 15s linear infinite ;
+    animation-delay:-19s;
+}
+    @keyframes falling{
+        0%{
+            opacity:1;
+            top:-10%;
+            transform:translateX (20px) rotateX(0deg);
+        }
+        15%{
+            opacity:0.7;
+            transform:translateX (-20px) rotateX(30deg);
+        }
+        30%{
+            transform:translateX (-20px) rotateX(70deg);
+        }
+        60%{
+            
+           transform:translateX (-20px) rotateX(45deg); 
+        }
+        75%{
+        
+            transform:translateX (-20px) rotateX(60deg);
+        }
+        100%{
+            
+            top:110%;
+            transform:translateX (-20px) rotateX(200deg);
+        }
+   }
+
