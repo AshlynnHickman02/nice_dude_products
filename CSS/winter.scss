@@ -42,6 +42,10 @@ div#main #card1 {
 div#main #card2 {
 	background-color: #ef32d9;
 }
+div#main ul,
+div#main ol {
+	padding: 1% 10%;
+}
 div#main img {
 	// position: absolute;
 	height: 50%;
@@ -82,7 +86,14 @@ a[href*="Reviews"] {
 	transition: color 0.5s ease;
 	text-decoration: none;
 	font-size: 1.5em;
+	color: rgba(240, 240, 240, 0.7);
 }
 a[href*="Reviews"]:hover {
 	color: white;
+}
+div#footer {
+	width: 50%;
+	margin: -250px auto;
+	text-align: center;
+	font-size: 1.5em;
 }
