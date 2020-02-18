@@ -4,9 +4,9 @@
 font-family: 'Montserrat', sans-serif;  */
 
 html{
-   background: linear-gradient(white, rgb(236, 240, 202));
    font-family: 'Montserrat', sans-serif; 
    height: 100%;
+   width: 100%;
 }
 
 /* header styles */
@@ -28,30 +28,93 @@ header h1{
    font-family: 'Nunito', sans-serif;
    background-color: white;
 }
-
+#presentation{
+   width: 50%;
+   margin-left: 25%;
+}
 /* navigation styles */
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
 nav{
-   display: block;
-   height: 50px;
    width: 100%;
 }
-#spring{
-   color: white;
-   background-color:rgb(235, 119, 245);
+nav li{
+   float: left;
+   display: Inline;
+   width: 25%;
+   text-align: center;
 }
+#spring{
+   color: rgb(253, 252, 252);
+   background-color:rgb(240, 150, 248);
+}
+#spring:hover{
+   color: rgb(226, 223, 223);
+   background-color: rgb(210, 150, 216);
+}
+#springS{
+   display: none;
+}
+#springS:hover{
+   display: block;
+}
+
 #summer{
-   background-color: yellow;
+   background-color: rgb(255, 255, 43);
+   color: rgb(49, 49, 49);
+}
+#summer:hover{
    color: black;
+   background-color: rgb(236, 236, 72);
 }
 #fall{
    background-color: orange;
+   color: rgb(49, 49, 49);
+}
+#fall:hover{
+   background-color: rgb(223, 147, 6);
    color: black;
 }
 #winter{
-   background-color: rgb(105, 223, 231);
+   background-color: rgb(114, 241, 250);
+   color: rgb(49, 49, 49);
+}
+#winter:hover{
+   background-color: rgb(100, 205, 212);
    color: black;
 }
+
 /* body styles */
+body div{
+   width: 80%;
+   padding: 15px;
+   margin: auto;
+   border-radius: 10px;
+}
+body div h1{
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 5px;
+   height: 35px;
+}
+#who{
+   margin-top: 10px;
+   border: solid rgb(240, 150, 248) 2px;
+}
+#who h1{
+   background-color: pink; 
+}
+
+#how{
+   margin-top: 10px;
+   border: solid rgb(216, 89, 228) 2px;
+}
+#how h1{
+   background-color: rgb(236, 81, 250);
+}
 
 
 /* footer styles */
