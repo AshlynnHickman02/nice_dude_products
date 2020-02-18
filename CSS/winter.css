@@ -21,6 +21,12 @@ div#main {
   margin: 15% auto;
 }
 
+div#main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 div#main div#card1,
 div#main div#card2 {
   border: outset 5px black;
@@ -34,19 +40,68 @@ div#main div#card2 {
   text-align: center;
 }
 
+div#main #card1 {
+  background-color: #80fffd;
+}
+
+div#main #card2 {
+  background-color: #ef32d9;
+}
+
 div#main img {
-  height: 600px;
-  width: 350px;
+  height: 50%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+div#main h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 175%;
 }
 
 div#main #text {
+  margin-top: -115px;
+  font-weight: 600;
   text-align: left;
   padding: 5px 15px;
   font-size: 1.25em;
 }
 
+div.main {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+hr {
+  width: 100%;
+}
+
 #text li {
   font-size: 1.55em;
   line-height: 102%;
+}
+
+*[id*="card"] {
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
+  transition: transform ease 0.5s;
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+}
+
+*[id*="card"]:hover {
+  -webkit-transform: scaleX(1.05) scaleY(1.05);
+          transform: scaleX(1.05) scaleY(1.05);
+}
+
+a[href*="Reviews"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a[href*="Reviews"]:hover {
+  color: white;
 }
 /*# sourceMappingURL=winter.css.map */
