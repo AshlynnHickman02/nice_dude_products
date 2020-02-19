@@ -96,11 +96,82 @@ body div h1{
 }
 
 /* sections */
-
+body a{
+   color: white;
+   text-decoration: none;
+}
 /* spring hover */
 #hovSpring{
    background-color: rgb(51, 51, 51);
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
+#hovSpring img{
+   margin-left: 25;
+   background-color: rgb(243, 217, 239);
+   border: solid rgb(210, 150, 216) 2px;
+   border-radius: 5px;
+}
+#hovSpring h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
+/* summer hover */
+#hovSummer{
+   background-color: rgb(51, 51, 51);
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+#hovSummer img{
+   margin-left: 25;
+   background-color: rgb(245, 252, 207);
+   border: solid rgb(217, 240, 88) 2px;
+   border-radius: 5px;
+}
+#hovSummer h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
+/* fall hover */
+#hovFall{
+   background-color: rgb(51, 51, 51);
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+#hovFall img{
+   margin-left: 15;
+   background-color: rgb(238, 205, 175);
+   border: solid rgb(252, 200, 104) 2px;
+   border-radius: 5px;
+}
+#hovFall h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
+/* winter hover */
+#hovWinter{
+   background-color: rgb(51, 51, 51);
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+#hovWinter img{
+   margin-left: 20;
+   background-color: rgb(168, 245, 245);
+   border: solid rgb(137, 135, 245) 2px;
+   border-radius: 5px;
+}
+#hovWinter h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
 /* information */
 #who{
    margin-top: 10px;
