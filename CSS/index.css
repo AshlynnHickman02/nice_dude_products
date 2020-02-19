@@ -3,6 +3,7 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
+
 html{
    font-family: 'Montserrat', sans-serif; 
    height: 100%;
@@ -13,6 +14,9 @@ html{
 #bar{
    background-color: rgb(51, 51, 51);
    height: 5px;
+}
+#why{
+   color: black;
 }
 header{
    width: 100%;
@@ -102,6 +106,10 @@ body a{
 }
 /* spring hover */
 #hovSpring{
+   display: none;
+}
+#hovSpring:hover{
+   display: block;
    background-color: rgb(51, 51, 51);
    text-align: center;
    margin-top: 5px;
@@ -120,6 +128,10 @@ body a{
 
 /* summer hover */
 #hovSummer{
+   display: none;
+}
+#hovSummer:hover{
+   display: block;
    background-color: rgb(51, 51, 51);
    text-align: center;
    margin-top: 5px;
@@ -138,6 +150,10 @@ body a{
 
 /* fall hover */
 #hovFall{
+   display: none;
+}
+#hovFall:hover{
+   display: block;
    background-color: rgb(51, 51, 51);
    text-align: center;
    margin-top: 5px;
@@ -156,6 +172,10 @@ body a{
 
 /* winter hover */
 #hovWinter{
+   display: none;
+}
+#hovWinter:hover{
+   display: block;
    background-color: rgb(51, 51, 51);
    text-align: center;
    margin-top: 5px;
