@@ -55,13 +55,6 @@ nav li{
    color: rgb(226, 223, 223);
    background-color: rgb(210, 150, 216);
 }
-#springS{
-   display: none;
-}
-#springS:hover{
-   display: block;
-}
-
 #summer{
    background-color: rgb(255, 255, 43);
    color: rgb(49, 49, 49);
