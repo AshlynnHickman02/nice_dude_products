@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #ef32d9;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#89fffd), to(#ef32d9));
+  background: linear-gradient(to right, #89fffd, #ef32d9);
+  margin-bottom: 15%;
+}
+
+div#main {
+  width: 75%;
+  margin: 15% auto;
+}
+
+div#main::after, div#cards {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div#main div#card1,
+div#main div#card2 {
+  border: outset 5px black;
+  border-radius: 15px;
+  -webkit-box-shadow: black 15px 5px 25px;
+          box-shadow: black 15px 5px 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+div#main #card1 {
+  background-color: #80fffd;
+}
+
+div#main #card2 {
+  background-color: #ef32d9;
+}
+
+div#main ul,
+div#main ol {
+  padding: 1% 10%;
+}
+
+div#main img {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+div#main h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 175%;
+}
+
+div#main #text {
+  margin-top: -115px;
+  font-weight: 600;
+  text-align: left;
+  padding: 5px 15px;
+  font-size: 1.25em;
+}
+
+div.main {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+hr {
+  width: 100%;
+}
+
+#text li {
+  font-size: 1.55em;
+  line-height: 102%;
+}
+
+*[id*="card"] {
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
+  transition: transform ease 0.5s;
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+}
+
+*[id*="card"]:hover {
+  -webkit-transform: scaleX(1.05) scaleY(1.05);
+          transform: scaleX(1.05) scaleY(1.05);
+}
+
+a[href*="Reviews"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+a[href*="Reviews"]:hover {
+  color: white;
+}
+
+div#footer {
+  clear: both;
+  width: 50%;
+  margin: -250px auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+div#footer button {
+  clear: both;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1880px) {
+  div#main {
+    width: 100%;
+    margin: 20px auto;
+  }
+  *[id^="card"] {
+    float: middle;
+  }
+}
+/*# sourceMappingURL=winter.css.map */
