@@ -32,6 +32,7 @@ header h1{
    width: 50%;
    margin-left: 25%;
 }
+
 /* navigation styles */
 .clearfix::after {
    content: "";
@@ -93,6 +94,14 @@ body div h1{
    padding: 5px;
    height: 35px;
 }
+
+/* sections */
+
+/* spring hover */
+#hovSpring{
+   background-color: rgb(51, 51, 51);
+}
+/* information */
 #who{
    margin-top: 10px;
    border: solid rgb(240, 150, 248) 2px;
