@@ -47,10 +47,14 @@ nav li{
    display: Inline;
    width: 25%;
    text-align: center;
+   height: 30px;
 }
 #spring{
    color: rgb(253, 252, 252);
    background-color:rgb(240, 150, 248);
+}
+.springg{
+   background-color: rgb(240, 150, 248);
 }
 #spring:hover{
    color: rgb(226, 223, 223);
@@ -60,6 +64,9 @@ nav li{
    background-color: rgb(255, 255, 43);
    color: rgb(49, 49, 49);
 }
+.summerr{
+   background-color: rgb(255, 255, 43);
+}
 #summer:hover{
    color: black;
    background-color: rgb(236, 236, 72);
@@ -68,6 +75,9 @@ nav li{
    background-color: orange;
    color: rgb(49, 49, 49);
 }
+.falll{
+   background-color: orange;
+}
 #fall:hover{
    background-color: rgb(223, 147, 6);
    color: black;
@@ -75,6 +85,9 @@ nav li{
 #winter{
    background-color: rgb(114, 241, 250);
    color: rgb(49, 49, 49);
+}
+.winterr{
+   background-color: rgb(144, 241, 250);
 }
 #winter:hover{
    background-color: rgb(100, 205, 212);

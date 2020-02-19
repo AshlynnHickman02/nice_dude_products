@@ -29,3 +29,60 @@ header h1{
    background-color: white;
 }
 
+/* navigation styles */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    width: 100%;
+}
+nav li{
+    float: left;
+    display: Inline;
+    width: 25%;
+    text-align: center;
+}
+#spring{
+    color: rgb(253, 252, 252);
+    background-color:rgb(240, 150, 248);
+}
+#spring:hover{
+    color: rgb(226, 223, 223);
+    background-color: rgb(210, 150, 216);
+}
+#summer{
+    background-color: rgb(255, 255, 43);
+    color: rgb(49, 49, 49);
+}
+#summer:hover{
+    color: black;
+    background-color: rgb(236, 236, 72);
+}
+#fall{
+    background-color: orange;
+    color: rgb(49, 49, 49);
+}
+#fall:hover{
+    background-color: rgb(223, 147, 6);
+    color: black;
+}
+#winter{
+    background-color: rgb(114, 241, 250);
+    color: rgb(49, 49, 49);
+}
+#winter:hover{
+    background-color: rgb(100, 205, 212);
+    color: black;
+}
+
+/* body styles */
+
+
+/* footer styles */
+footer{
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+}
