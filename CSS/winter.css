@@ -12,7 +12,6 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#89fffd), to(#ef32d9));
   background: linear-gradient(to right, #89fffd, #ef32d9);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 15%;
 }
 
@@ -21,7 +20,7 @@ div#main {
   margin: 15% auto;
 }
 
-div#main::after {
+div#main::after, div#cards {
   content: "";
   display: table;
   clear: both;
@@ -112,9 +111,26 @@ a[href*="Reviews"]:hover {
 }
 
 div#footer {
+  clear: both;
   width: 50%;
   margin: -250px auto;
   text-align: center;
   font-size: 1.5em;
+}
+
+div#footer button {
+  clear: both;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1880px) {
+  div#main {
+    width: 100%;
+    margin: 20px auto;
+  }
+  *[id^="card"] {
+    float: middle;
+  }
 }
 /*# sourceMappingURL=winter.css.map */

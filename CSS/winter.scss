@@ -12,7 +12,7 @@ body {
 		to right,
 		#89fffd,
 		#ef32d9
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	);
 	margin-bottom: 15%;
 }
 div#main {
@@ -91,9 +91,19 @@ a[href*="Reviews"] {
 a[href*="Reviews"]:hover {
 	color: white;
 }
-div#footer {
+div#footer{
 	width: 50%;
 	margin: -250px auto;
 	text-align: center;
 	font-size: 1.5em;
+}
+div#footer button {
+	clear: both;
+	font-size: 1.5em;
+	border-radius: 20px;
+}
+@media only screen and (max-width: 1880px) {
+	div#main *[id^="card"] {
+		width: 1%;
+	}
 }
