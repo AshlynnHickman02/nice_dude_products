@@ -16,11 +16,13 @@ body {
 }
 
 div#main {
+  -webkit-transform: translateX(3%);
+          transform: translateX(3%);
   width: 75%;
   margin: 15% auto;
 }
 
-div#main::after, div#cards {
+div#main::after {
   content: "";
   display: table;
   clear: both;
@@ -34,7 +36,7 @@ div#main div#card2 {
           box-shadow: black 15px 5px 25px;
   margin-left: 15px;
   margin-right: 45px;
-  width: 45%;
+  width: 40%;
   float: left;
   text-align: center;
 }
@@ -111,7 +113,6 @@ a[href*="Reviews"]:hover {
 }
 
 div#footer {
-  clear: both;
   width: 50%;
   margin: -250px auto;
   text-align: center;
@@ -124,13 +125,12 @@ div#footer button {
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 1880px) {
-  div#main {
-    width: 100%;
-    margin: 20px auto;
-  }
-  *[id^="card"] {
-    float: middle;
+@media only screen and (max-width: 1800px) {
+  div#main div#card1,
+  div#main div#card2 {
+    width: 75%;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
   }
 }
 /*# sourceMappingURL=winter.css.map */
