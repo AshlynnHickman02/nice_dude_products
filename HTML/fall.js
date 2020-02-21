@@ -3,27 +3,27 @@ var card1 = document.getElementById('card1').style;
 var card2 = document.getElementById('card2').style;
 const stylesArray = [
 	[
-		'#F3904F',
-		'-webkit-linear-gradient(to right, #4ca2cd, #67B26F)',
-		'linear-gradient(to right, #3B4371, #F3904F)',
-		'#3B4371',
-		'#F3904F'
-	], // Paradise
+		'#C2C290',
+		'-webkit-linear-gradient(to right, #C2C290, #4A572C,#803018)',
+		'linear-gradient(to right, #C2C290, #4A572C,#803018)',
+		'#4A572C',
+		'#803018'
+	], // tomato
 	[
-		'#a770ef',
-		'-webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b)',
-		'linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b',
-		'#a770ef',
-		'#fdb99b'
-	], // Radar
-	[ 'linear-gradient(to right, #89253e, #3a6186)', '#89253e', '#3a6186' ], // Love Couple
-	[ 'linear-gradient(to right, #734b6d, #42275a)', '#734b6d', '#42275a' ], // Muave
-	[ 'linear-gradient(to right, #4ca2cd, #67B26F)', '#4ca2cd', '#67B26F' ], // Mild
-	[ 'linear-gradient(to right, #A59132, #DA7422)', '#A59132', '#DA7422' ], // Fall
+		'#6E352C',
+		'-webkit-linear-gradient(to right, #6E352C, #8A6E64, #6E612F)',
+		'linear-gradient(to right, #6E352C, #8A6E64, #6E612F',
+		'#8A6E64',
+		'#6E612F'
+	], // Canyon
+	[ 'linear-gradient(to right, #694364, #B58BAB)', '#C4C4C0', '#CCA772' ], // Mineral
+	[ 'linear-gradient(to right, #472C25, #D4C2B2)', '#EB712F', '#91371B' ], // Spiced
+	[ 'linear-gradient(to right, #D1CEC5, #997C67)', '#DBA72E', '#E3CCA1' ], // Autumn
+	[ 'linear-gradient(to right, #536620, #f0c002)', '#911e32', '#530d18' ], // Leaf
 	[ 'linear-gradient(to right, #a80077, #66ff00)', '#a80077', '#66ff00' ], // Summer
-	[ 'linear-gradient(to right, #FFD6E0, #C1FBA4)', '#FFD6E0', '#C1FBA4' ] // Fall
+	[ 'linear-gradient(to right, #283811, #B8997F)', '#D94330', '#5C0811' ] // Chili
 ];
-function paradise() {
+function tomato() {
 	body.background = stylesArray[0][0];
 	body.background = stylesArray[0][1];
 	body.background = stylesArray[0][2];
@@ -32,7 +32,7 @@ function paradise() {
 	card2.background = stylesArray[0][4];
 }
 
-function radar() {
+function canyon() {
 	body.background = stylesArray[1][0];
 	body.background = stylesArray[1][1];
 	body.background = stylesArray[1][2];
@@ -41,19 +41,19 @@ function radar() {
 	card2.background = stylesArray[1][4];
 }
 
-function love() {
+function mineral() {
 	body.background = stylesArray[2][0];
 
 	card1.background = stylesArray[2][1];
 	card2.background = stylesArray[2][2];
 }
-function muave() {
+function spiced() {
 	body.background = stylesArray[3][0];
 
 	card1.background = stylesArray[3][1];
 	card2.background = stylesArray[3][2];
 }
-function mild() {
+function autumn() {
 	body.background = stylesArray[4][0];
 
 	card1.background = stylesArray[4][1];
@@ -71,7 +71,7 @@ function summer() {
 	card1.background = stylesArray[6][1];
 	card2.background = stylesArray[6][2];
 }
-function spring() {
+function chili() {
 	body.background = stylesArray[7][0];
 
 	card1.background = stylesArray[7][1];
