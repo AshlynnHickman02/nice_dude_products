@@ -3,7 +3,6 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
-
 html{
    font-family: 'Montserrat', sans-serif; 
    height: 100%;
@@ -39,7 +38,7 @@ header h1{
    height: 50%;
 }
 
-/* navigation styles */
+/* nav styles */
 .clearfix::after {
    content: "";
    display: table;
@@ -87,6 +86,11 @@ nav li{
    color: black;
 }
  
+/* themes */
+#theme button{
+    display: block;
+}
+/* body styles */
 body {
     height: 100%;
     margin: 0;
@@ -98,33 +102,47 @@ body {
     background: -webkit-gradient(linear-gradient((#FFEF9F),(#FFD6E0)));
     background: linear-gradient(#FFEF9F, #FFD6E0);
     margin-bottom: 15%;
-    text-align: left;
 }
     
-  div#main::after, div#cards {
+div#main::after, div#cards + div#main {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  div#main div#drink1,
-  div#main div#drink2 {
+div#main h1{
+    text-align: center;
+}
+div#main div#drink1,
+div#main div#drink2 {
     border: outset 2px rgb(250, 198, 211);
     border-radius: 15px;
-    margin-left: 15px;
-    margin-right: 45px;
-    width: 45%;
+    margin-left: 140px;
+    width: 35%;
     float: left;
-    text-align: center;
-  }
+}
+div#main div#drink1 img, 
+div#main div#drink2 img{
+    margin-left: 30%;
+    margin-right: auto;
+    padding: 20px;
+}
+#drink1 li{
+    margin-left: 10px;
+}
+#drink1 img{
+    background-color: #FFEF9F;
+    border: solid 3px rgb(250, 193, 207);
+    border-radius: 10px;
+}
   
-  div#main #drink1 {
+div#main #drink1 {
     background-color: #FFD6E0;
-  }
-  
-  div#main #drink2 {
+}
+
+div#main #drink2 {
     background-color: rgb(252, 241, 189);
-  }
+}
     
   div#main img {
     height: 40%;
@@ -142,65 +160,65 @@ div#main h1{
     padding: 10px;
 }
   
-  div#main #text {
+div#main #text {
     margin-top: -115px;
     font-weight: 600;
     padding: 5px 15px;
     font-size: 1.25em;
-  }
-  
-  div.main {
+}
+
+div.main {
     margin: 0px 0px;
     padding: 0px;
-  }
-  
-  hr {
+}
+
+hr {
     width: 100%;
-  }
-  
-  #text li {
+}
+
+#text li {
     font-size: 1.55em;
     line-height: 102%;
-  }
-  
-  *[id*="card"] {
+}
+
+*[id*="card"] {
     -webkit-transition: -webkit-transform ease 0.5s;
     transition: -webkit-transform ease 0.5s;
     transition: transform ease 0.5s;
     transition: transform ease 0.5s, -webkit-transform ease 0.5s;
-  }
-  
-  *[id*="card"]:hover {
+}
+
+*[id*="card"]:hover {
     -webkit-transform: scaleX(1.05) scaleY(1.05);
-            transform: scaleX(1.05) scaleY(1.05);
-  }
-  
-  a[href*="Reviews"] {
+    transform: scaleX(1.05) scaleY(1.05);
+}
+
+a[href*="Reviews"] {
     -webkit-transition: color 0.5s ease;
     transition: color 0.5s ease;
     text-decoration: none;
     font-size: 1.5em;
     color: rgba(240, 240, 240, 0.7);
-  }
-  
-  a[href*="Reviews"]:hover {
+}
+
+a[href*="Reviews"]:hover {
     color: white;
-  }
-    
-  @media only screen and (max-width: 1880px) {
+}
+
+@media only screen and (max-width: 1880px) {
     div#main {
-      width: 100%;
-      margin: 20px auto;
+        width: 100%;
+        margin: 20px auto;
     }
     *[id^="card"] {
-      float: middle;
+        float: middle;
     }
-  }
-  /*# sourceMappingURL=winter.css.map */
+}
+/*# sourceMappingURL=winter.css.map */
 
-  /* footer styles */
+/* footer styles */
 footer{
     color: grey;
     font-size: 10px;
     text-align: center;
- }
+}
