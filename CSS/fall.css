@@ -11,6 +11,7 @@ body {
   background: -webkit-linear-gradient(to right, #A59132, #DA7422);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #A59132, #DA7422); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 15%;
+  color: rgb(17, 8, 109);
 }
 
 div#main {
@@ -60,6 +61,12 @@ div#main img {
   width: 50%;
   margin-bottom: 50px;
 }
+div#main img#red {
+  height: 15%;
+  width: 35%;
+  margin-bottom: 50px;
+  padding-right: 50px;
+}
 
 div#main h2 {
   text-align: center;
@@ -95,7 +102,21 @@ hr {
   transition: transform ease 0.5s;
   transition: transform ease 0.5s, -webkit-transform ease 0.5s;
 }
-
+li#checkout a{
+  color: rgb(253, 55, 55);
+  transition: transform ease 0.5s;
+}
+li#checkout{
+  color: rgb(253, 55, 55);
+  transition: transform ease 0.5s;
+}
+li#checkout:hover{
+  color: rgb(255, 255, 255);
+  transform: scaleX(1.05) scaleY(1.05);
+}
+li#checkout a:hover{
+  color: rgb(255, 255, 255);
+}
 *[id*="card"]:hover {
   -webkit-transform: scaleX(1.05) scaleY(1.05);
           transform: scaleX(1.05) scaleY(1.05);
@@ -106,7 +127,7 @@ a[href*="Reviews"] {
   transition: color 0.5s ease;
   text-decoration: none;
   font-size: 1.5em;
-  color: rgba(240, 240, 240, 0.7);
+  color: rgba(0, 255, 221, 0.7);
 }
 
 a[href*="Reviews"]:hover {
@@ -134,6 +155,7 @@ div#footer button {
             transform: translateX(10%);
   }
 }
+
 /*# sourceMappingURL=winter.css.map */
 section{
   z-index: 100;
