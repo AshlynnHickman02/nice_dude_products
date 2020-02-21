@@ -27,7 +27,7 @@ html {
     border: outset 5px black;
     border-radius: 15px;
     -webkit-box-shadow: black 15px 5px 25px;
-            box-shadow: black 15px 5px 25px;
+    box-shadow: black 15px 5px 25px;
     margin-left: 15px;
     margin-right: 45px;
     width: 45%;
@@ -36,11 +36,11 @@ html {
   }
   
   div#main #card1 {
-    background-color: ;
+    background-color: #CC5543;
   }
   
   div#main #card2 {
-    background-color: ;
+    background-color: #DBE6AF;
   }
   
   div#main ul,
