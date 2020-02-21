@@ -20,7 +20,7 @@ const stylesArray = [
 	[ 'linear-gradient(to right, #472C25, #D4C2B2)', '#EB712F', '#91371B' ], // Spiced
 	[ 'linear-gradient(to right, #D1CEC5, #997C67)', '#DBA72E', '#E3CCA1' ], // Autumn
 	[ 'linear-gradient(to right, #536620, #f0c002)', '#911e32', '#530d18' ], // Leaf
-	[ 'linear-gradient(to right, #a80077, #66ff00)', '#a80077', '#66ff00' ], // Summer
+	[ 'linear-gradient(to right, #D9D9D9, #F5B3B4)', '#D15656', '#94353C' ], // Fresh
 	[ 'linear-gradient(to right, #283811, #B8997F)', '#D94330', '#5C0811' ] // Chili
 ];
 function tomato() {
@@ -59,13 +59,13 @@ function autumn() {
 	card1.background = stylesArray[4][1];
 	card2.background = stylesArray[4][2];
 }
-function fall() {
+function leaf() {
 	body.background = stylesArray[5][0];
 
 	card1.background = stylesArray[5][1];
 	card2.background = stylesArray[5][2];
 }
-function summer() {
+function fresh() {
 	body.background = stylesArray[6][0];
 
 	card1.background = stylesArray[6][1];
