@@ -1,0 +1,12 @@
+a[href*="html"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+a[href*="html"]:hover {
+  color: white;
+}
+/*# sourceMappingURL=winter_reviews.css.map */

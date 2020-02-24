@@ -1,5 +1,6 @@
 html {
-  height: 100%;
+  height: auto;
+  margin-bottom: 175px;
 }
 
 body {
@@ -12,12 +13,11 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#89fffd), to(#ef32d9));
   background: linear-gradient(to right, #89fffd, #ef32d9);
-  margin-bottom: 15%;
 }
 
 div#main {
-  -webkit-transform: translateX(3%);
-          transform: translateX(3%);
+  -webkit-transform: translateX(3%) translateY(-10%);
+          transform: translateX(3%) translateY(-10%);
   width: 75%;
   margin: 15% auto;
 }
@@ -57,7 +57,7 @@ div#main ol {
 div#main img {
   height: 50%;
   width: 50%;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 div#main h2 {
@@ -123,6 +123,48 @@ div#footer button {
   clear: both;
   font-size: 1.5em;
   border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(200, 200, 200, 0.655);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75em;
+  -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+  transition: background-color 0.5s ease, color 0.565s ease-in;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-size: 100%;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffae00;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+a {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -131,6 +173,17 @@ div#footer button {
     width: 75%;
     -webkit-transform: translateX(10%);
             transform: translateX(10%);
+  }
+  div#main #card1 {
+    margin-bottom: 25px;
+  }
+  div#main {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  *[class*="nav"] {
+    -webkit-transform: scaleY(1.035);
+            transform: scaleY(1.035);
   }
 }
 /*# sourceMappingURL=winter.css.map */

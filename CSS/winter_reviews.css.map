@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAA,AAAA,IAAC,EAAM,MAAM,AAAZ,EAAc;EACf,UAAU,EAAE,eAAe;EAC3B,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,wBAAwB;CAC/B;;AACD,AAAA,CAAC,CAAA,AAAA,IAAC,EAAM,MAAM,AAAZ,CAAa,MAAM,CAAC;EACrB,KAAK,EAAE,KAAK;CACZ",
+    "sources": [
+        "winter_reviews.scss"
+    ],
+    "names": [],
+    "file": "winter_reviews.css"
+}

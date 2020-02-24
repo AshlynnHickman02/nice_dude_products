@@ -3,11 +3,10 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
-
-html{
-   font-family: 'Montserrat', sans-serif; 
-   height: 100%;
-   width: 100%;
+html {
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	width: 100%;
 }
 
 /* header styles */
@@ -15,11 +14,11 @@ html{
 	background-color: rgb(51, 51, 51);
 	height: 5px;
 }
-#why{
-   color: black;
+#why {
+	color: black;
 }
-header{
-   width: 100%;
+header {
+	width: 100%;
 }
 header img {
 	width: 25px;
@@ -105,15 +104,15 @@ body a {
 	text-decoration: none;
 }
 /* spring hover */
-#hovSpring{
-   display: none;
+#hovSpring {
+	display: none;
 }
-#hovSpring:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovSpring:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 #hovSpring img {
 	margin-left: 25;
@@ -127,15 +126,15 @@ body a {
 }
 
 /* summer hover */
-#hovSummer{
-   display: none;
+#hovSummer {
+	display: none;
 }
-#hovSummer:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovSummer:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 #hovSummer img {
 	margin-left: 25;
@@ -149,15 +148,15 @@ body a {
 }
 
 /* fall hover */
-#hovFall{
-   display: none;
+#hovFall {
+	display: none;
 }
-#hovFall:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovFall:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 #hovFall img {
 	margin-left: 15;
@@ -171,15 +170,15 @@ body a {
 }
 
 /* winter hover */
-#hovWinter{
-   display: none;
+#hovWinter {
+	display: none;
 }
-#hovWinter:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovWinter:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 #hovWinter img {
 	margin-left: 20;
