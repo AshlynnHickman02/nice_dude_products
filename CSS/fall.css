@@ -1,0 +1,362 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #A59132;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A59132, #DA7422) cover/ no-repeat;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A59132, #DA7422 ) cover/ no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 15%;
+  color: rgb(17, 8, 109);
+}
+
+ol li{
+  list-style-type: decimal;
+}
+div#main {
+  -webkit-transform: translateX(3%);
+  transform: translateX(3%);
+  width: 75%;
+  margin: 15% auto;
+}
+
+div#main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div#main div#card1,
+div#main div#card2 {
+  border: outset 5px black;
+  border-radius: 15px;
+  -webkit-box-shadow: black 15px 5px 25px;
+  box-shadow: black 15px 5px 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+div.help{
+  position: absolute;
+  z-index: 99;
+}
+div#main #card1 {
+  background-color: #CC5543;
+  margin-bottom: 2%;
+}
+
+div#main #card2 {
+  background-color: #DBE6AF;
+}
+
+div#main ul,
+div#main ol {
+  padding: 1% 10%;
+}
+
+div#main img {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+div#main img#red {
+  height: 15%;
+  width: 35%;
+  margin-bottom: 50px;
+  padding-right: 50px;
+}
+
+div#main h2 {
+  margin-top: 7%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 175%;
+}
+
+div#main #text {
+  margin-top: -115px;
+  font-weight: 600;
+  text-align: left;
+  padding: 5px 15px;
+  font-size: .75em;
+}
+
+div.main {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+hr {
+  width: 100%;
+}
+
+#text li {
+  font-size: 1.55em;
+  line-height: 102%;
+}
+
+*[id*="card"] {
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
+  transition: transform ease 0.5s;
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+}
+li#checkout a{
+  color: rgb(253, 55, 55);
+  transition: transform ease 0.5s;
+}
+li#checkout{
+  color: rgb(253, 55, 55);
+  transition: transform ease 0.5s;
+}
+li#checkout:hover{
+  color: rgb(255, 255, 255);
+  transform: scaleX(1.05) scaleY(1.05);
+}
+li#checkout a:hover{
+  color: rgb(255, 255, 255);
+}
+*[id*="card"]:hover {
+  -webkit-transform: scaleX(1.05) scaleY(1.05);
+          transform: scaleX(1.05) scaleY(1.05);
+}
+
+a[href*="Reviews"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(0, 255, 221, 0.7);
+}
+a[href*="Reviews"]:hover {
+  color: white;
+}
+
+a[href*="fall"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(80, 37, 236, 0.7);
+}
+a[href*="fall"]:hover {
+  color: white;
+}
+
+div#footer {
+  width: 50%;
+  margin: -250px auto;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 50px;
+}
+
+div#footer button {
+  clear: both;
+  font-size: 1.5em;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 1800px) {
+  div#main div#card1,
+  div#main div#card2 {
+    width: 75%;
+    -webkit-transform: translateX(10%);
+    transform: translateX(10%);
+  }
+}
+
+/*# sourceMappingURL=winter.css.map */
+section{
+  height: 100%;
+  z-index: 100;
+}
+.leaves{
+  position:absolute ;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  transform: rotateY(-30deg);
+  transform: translate3d(50deg);
+  transform: rotate3d(1,1.5,2,-10deg);
+}
+.leaves div{
+position:absolute ;
+display:block ;
+}
+.leaves div:nth-child(1){
+  left:20%;
+  animation:falling 9s linear infinite ;
+  animation-delay:-1s;
+
+}
+.leaves div:nth-child(2){
+  left:70%;
+  animation:falling 17s linear infinite ;
+  animation-delay:-3s;
+}
+.leaves div:nth-child(3){
+  left:10%;
+  animation:falling 23s linear infinite ;
+  animation-delay:-5s;
+ 
+}
+.leaves div:nth-child(4){
+  left:50%;
+ animation:falling 18s linear infinite ;
+ animation-delay:-6s;
+}
+.leaves div:nth-child(5){
+  left:85%;
+  animation:falling 15s linear infinite ;
+  animation-delay:-8s;
+}
+.leaves div:nth-child(6){
+  left:15%;
+  animation:falling 12s linear infinite ;
+  animation-delay:-10s;
+}
+.leaves div:nth-child(7){
+  left:90%;
+  animation:falling 13s linear infinite ;
+  animation-delay:-4s;
+}
+.leaves2{
+position:absolute ;
+width:100%;
+height:100%;
+top:0;
+left:0;
+}
+.leaves2 div{
+position:absolute ;
+display:block ;
+transform: rotateY(-30deg);
+transform: translate3d(50deg);
+transform: rotate3d(1,1.5,2,-15deg);
+}
+.leaves2 div:nth-child(1){
+left:10%;
+animation:falling 17s linear infinite ;
+animation-delay:-3s;
+}
+.leaves2 div:nth-child(2){
+left:60%;
+animation:falling 15s linear infinite ;
+animation-delay:-1s;
+}
+.leaves2 div:nth-child(3){
+left:17%;
+animation:falling 26s linear infinite ;
+animation-delay:-9s;
+
+}
+.leaves2 div:nth-child(4){
+left:53%;
+animation:falling 19s linear infinite ;
+animation-delay:-3s;
+}
+.leaves2 div:nth-child(5){
+left:75%;
+animation:falling 20s linear infinite ;
+animation-delay:-7s;
+}
+.leaves2 div:nth-child(6){
+left:15%;
+animation:falling 17s linear infinite ;
+animation-delay:-6s;
+}
+.leaves2 div:nth-child(7){
+left:80%;
+animation:falling 11s linear infinite ;
+animation-delay:-10s;
+}
+.leaves3{
+position:absolute ;
+width:100%;
+height:100%;
+top:0;
+left:0;
+}
+.leaves3 div{
+position:absolute ;
+display: block;
+transform: rotateY(-30deg);
+transform: translate3d(50deg);
+transform: rotate3d(1,1.5,2,10deg);
+}
+.leaves3 div:nth-child(1){
+left:25%;
+animation:falling 15s linear infinite ;
+animation-delay:-9s;
+
+}
+.leaves3 div:nth-child(2){
+left:66%;
+animation:falling 14s linear infinite ;
+animation-delay:-4s;
+}
+.leaves3 div:nth-child(3){
+left:30%;
+animation:falling 20s linear infinite ;
+animation-delay:-5s;
+
+}
+.leaves3 div:nth-child(4){
+left:58%;
+animation:falling 12s linear infinite ;
+animation-delay:-8s;
+}
+.leaves3 div:nth-child(5){
+left:78%;
+animation:falling 11s linear infinite ;
+animation-delay:-7s;
+}
+.leaves3 div:nth-child(6){
+left:33%;
+animation:falling 16s linear infinite ;
+animation-delay:-8s;
+}
+.leaves3 div:nth-child(7){
+left:92%;
+animation:falling 15s linear infinite ;
+animation-delay:-19s;
+}
+@keyframes falling{
+  0%{
+      opacity:1;
+      top:-10%;
+      transform:translateX (5px) rotateX(0deg);
+  }
+  15%{
+      opacity:0.7;
+      transform:translateX (-100px) rotateX(30deg);
+  }
+  30%{
+      transform:translateX (-100px) rotateX(70deg);
+  }
+  60%{
+     
+     transform:translateX (-100px) rotateX(45);
+  }
+  75%{
+ 
+      transform:translateX (-100px) rotateX(60deg);
+  }
+  100%{
+     
+      top:225%;
+      transform:translateX (-100px) rotateX(200deg);
+  }
+}
