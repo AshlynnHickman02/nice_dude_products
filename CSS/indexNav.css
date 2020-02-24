@@ -1,0 +1,63 @@
+/* Add a black background color to the top navigation */
+html body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e2ebf0), to(#cfd9df));
+  background-image: linear-gradient(#e2ebf0, #cfd9df);
+  -webkit-box-shadow: black 0px 0px 35px;
+          box-shadow: black 0px 0px 35px;
+  width: 75%;
+  margin: 0px auto;
+  height: 100%;
+}
+
+body img {
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.topnav {
+  background-color: rgba(200, 200, 200, 0.655);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #94b3bb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75em;
+  -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+  transition: background-color 0.5s ease, color 0.565s ease-in;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-size: 100%;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #a11dad;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+a {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+footer {
+  -webkit-transform: translateY(calc(75px));
+          transform: translateY(calc(75px));
+  clear: both;
+}
+/*# sourceMappingURL=indexNav.css.map */
