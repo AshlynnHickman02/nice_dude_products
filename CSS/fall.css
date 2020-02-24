@@ -23,7 +23,7 @@ div#main {
   -webkit-transform: translateX(3%);
   transform: translateX(3%);
   width: 75%;
-  margin: 15% auto;
+  margin: 15% 8%;
 }
 
 div#main::after {
@@ -38,8 +38,6 @@ div#main div#card2 {
   border-radius: 15px;
   -webkit-box-shadow: black 15px 5px 25px;
   box-shadow: black 15px 5px 25px;
-  margin-left: 7%;
-  margin-right: 50%;
   width: 40%;
   float: left;
   text-align: center;
@@ -156,7 +154,7 @@ div#footer {
   margin: -250px auto;
   text-align: center;
   font-size: 1.5em;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 div#footer button {
@@ -164,7 +162,8 @@ div#footer button {
   font-size: 1.5em;
   border-radius: 20px;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -174,6 +173,40 @@ div#footer button {
     -webkit-transform: translateX(10%);
     transform: translateX(10%);
   }
+}
+.topnav {
+  background-color: rgba(200, 200, 200, 0.655);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+div.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75em;
+  -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+  transition: background-color 0.5s ease, color 0.565s ease-in;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-size: 100%;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffae00;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
 }
 
 /*# sourceMappingURL=winter.css.map */
