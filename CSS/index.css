@@ -12,7 +12,7 @@ html {
 /* header styles */
 #bar {
 	background-color: rgb(51, 51, 51);
-	height: 5px;
+	height: .4em;
 }
 #why {
 	color: black;
@@ -21,19 +21,19 @@ header {
 	width: 100%;
 }
 header img {
-	width: 25px;
+	width: 1em;
 }
 header h1 {
-	padding-top: 10px;
-	padding-left: 10px;
-	height: 50px;
-	font-size: 25px;
+	padding-top: .3em;
+	padding-left: .4em;
+	height: 2em;
+	font-size: 2em;
 	font-family: 'Nunito', sans-serif;
 	background-color: white;
 }
 #presentation {
-	width: 50%;
-	margin-left: 25%;
+	width: 70%;
+	margin-left: 15%;
 }
 
 /* navigation styles */
@@ -48,10 +48,11 @@ nav {
 nav li {
 	float: left;
 	display: Inline;
-	width: 25%;
 	text-align: center;
+	height: 1.5em;
+	width: 20em;
 }
-#spring {
+#spring{
 	color: rgb(253, 252, 252);
 	background-color: rgb(240, 150, 248);
 }
@@ -87,20 +88,16 @@ nav li {
 /* body styles */
 body div {
 	width: 80%;
-	padding: 15px;
+	padding: 1em;
 	margin: auto;
-	border-radius: 10px;
+	border-radius: 1em;
 }
 body div h1 {
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 5px;
-	height: 35px;
+	margin: .5em;
+	padding: .5em;
+	height: 2em;
 }
-
-/* sections */
-body a {
-	color: white;
+a{
 	text-decoration: none;
 }
 /* spring hover */
@@ -193,8 +190,8 @@ body a {
 
 /* information */
 #who {
-	margin-top: 10px;
-	border: solid rgb(240, 150, 248) 2px;
+	margin-top: .8em;
+	border: solid rgb(240, 150, 248) .1em;
 }
 #who h1 {
 	background-color: pink;
@@ -202,7 +199,7 @@ body a {
 
 #how {
 	margin-top: 10px;
-	border: solid rgb(216, 89, 228) 2px;
+	border: solid rgb(216, 89, 228) .1em;
 }
 #how h1 {
 	background-color: rgb(236, 81, 250);
@@ -211,6 +208,6 @@ body a {
 /* footer styles */
 footer {
 	color: grey;
-	font-size: 10px;
+	font-size: .8em;
 	text-align: center;
 }
