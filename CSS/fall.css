@@ -172,6 +172,7 @@ div#footer button {
 
 /*# sourceMappingURL=winter.css.map */
 section{
+  height: 100%;
   z-index: 100;
 }
 .leaves{
@@ -330,26 +331,26 @@ animation-delay:-19s;
   0%{
       opacity:1;
       top:-10%;
-      transform:translateX (20px) rotateX(0deg);
+      transform:translateX (5px) rotateX(0deg);
   }
   15%{
       opacity:0.7;
-      transform:translateX (-20px) rotateX(30deg);
+      transform:translateX (-100px) rotateX(30deg);
   }
   30%{
-      transform:translateX (-20px) rotateX(70deg);
+      transform:translateX (-100px) rotateX(70deg);
   }
   60%{
      
-     transform:translateX (-20px) rotateX(45deg);
+     transform:translateX (-100px) rotateX(45);
   }
   75%{
  
-      transform:translateX (-20px) rotateX(60deg);
+      transform:translateX (-100px) rotateX(60deg);
   }
   100%{
      
-      top:110%;
-      transform:translateX (-20px) rotateX(200deg);
+      top:225%;
+      transform:translateX (-100px) rotateX(200deg);
   }
 }
