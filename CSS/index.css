@@ -3,6 +3,7 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
+<<<<<<< HEAD
 html {
 	font-family: 'Montserrat', sans-serif;
 	height: 100%;
@@ -15,15 +16,241 @@ body div#index {
 	padding: 1em;
 	margin: auto;
 	border-radius: 1em;
+=======
+html{
+   font-family: 'Montserrat', sans-serif; 
+   height: 100%;
+   width: 100%;
+}
+
+/* header styles */
+#bar{
+   background-color: rgb(51, 51, 51);
+   height: 5px;
+}
+#why{
+   color: black;
+   font-variant: none;
+}
+header{
+   width: 100%;
+}
+header img{
+   width: 25px;
+}
+header h1{
+   padding-top: 10px;
+   padding-left: 10px;
+   height: 50px;
+   font-size: 25px;
+   font-family: 'Nunito', sans-serif;
+   background-color: white;
+}
+#presentation{
+   width: 75%;
+   margin-left: 10%;
+   height: 50%;
+}
+
+/* navigation styles */
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+nav{
+   width: 100%;
+}
+nav li{
+   float: left;
+   display: Inline;
+   width: 25%;
+   text-align: center;
+   height: 30px;
+}
+#spring{
+   color: rgb(253, 252, 252);
+   background-color:rgb(240, 150, 248);
+}
+.springg{
+   background-color: rgb(240, 150, 248);
+}
+#spring:hover{
+   color: rgb(226, 223, 223);
+   background-color: rgb(210, 150, 216);
+}
+#summer{
+   background-color: rgb(255, 255, 43);
+   color: rgb(49, 49, 49);
+}
+.summerr{
+   background-color: rgb(255, 255, 43);
+}
+#summer:hover{
+   color: black;
+   background-color: rgb(236, 236, 72);
+}
+#fall{
+   background-color: orange;
+   color: rgb(49, 49, 49);
+}
+.falll{
+   background-color: orange;
+}
+#fall:hover{
+   background-color: rgb(223, 147, 6);
+   color: black;
+}
+#winter{
+   background-color: rgb(114, 241, 250);
+   color: rgb(49, 49, 49);
+}
+.winterr{
+   background-color: rgb(144, 241, 250);
+}
+#winter:hover{
+   background-color: rgb(100, 205, 212);
+   color: black;
+}
+
+/* body styles */
+body div{
+   width: 80%;
+   padding: 15px;
+   margin: auto;
+   border-radius: 10px;
+}
+body div h1{
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 5px;
+   height: 35px;
+}
+
+
+/* change html */
+#hovSpring:hover + html{
+   background-color: pink; 
+}
+/* 
+body a{
+   color: white;
+   text-decoration: none;
+}
+#hovSpring{
+   opacity: 0;
+   width: 150px;
+   height: 10px;
+   margin-left: 10%;
+}
+
+#hovSpring:hover{
+   opacity: 1;
+   background-color: rgb(51, 51, 51);
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 50%;
+   height: 100%;
+   margin-left: 25%;
+}
+#hovSpring img{
+   margin-left: 25;
+   background-color: rgb(243, 217, 239);
+   border: solid rgb(210, 150, 216) 2px;
+   border-radius: 5px;
+}
+#hovSpring h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
+#hovSummer{
+   opacity: 0;
+   width: 10px;
+   height: 10px;
+   margin-left: 25%;
+}
+#hovSummer:hover{
+   opacity: 1;
+   background-color: rgb(51, 51, 51);
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 50%;
+   height: 100%;
+}
+#hovSummer img{
+   margin-left: 25;
+   background-color: rgb(245, 252, 207);
+   border: solid rgb(217, 240, 88) 2px;
+   border-radius: 5px;
+}
+#hovSummer h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
+#hovFall{
+   opacity: 0;
+   width: 10px;
+   height: 10px;
+   margin-left: 30%;
+}
+#hovFall:hover{
+   opacity: 1;
+   background-color: rgb(51, 51, 51);
+   width: 50%;
+   height: 100%;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 25%;
+>>>>>>> Spring
 }
 body div h1 {
 	margin: .5em;
 	padding: .5em;
 	height: 2em;
 }
+<<<<<<< HEAD
 a {
 	text-decoration: none;
 }
+=======
+#hovFall h1{
+   font-size: 2em; 
+   margin: 5px;
+}
+
+#hovWinter{
+   opacity: 0;
+   width: 10px;
+   height: 10px;
+   margin-left: 40%;
+}
+#hovWinter:hover{
+   opacity: 1;
+   background-color: rgb(51, 51, 51);
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+#hovWinter img{
+   margin-left: 20;
+   background-color: rgb(168, 245, 245);
+   border: solid rgb(137, 135, 245) 2px;
+   border-radius: 5px;
+   width: 100%;
+   height: 100%;
+}
+#hovWinter h1{
+   font-size: 2em; 
+   margin: 5px;
+} */
+>>>>>>> Spring
 
 /* information */
 #who {
