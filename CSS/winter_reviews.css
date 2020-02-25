@@ -1,12 +1,18 @@
-a[href*="html"] {
+a[href*="winter"] {
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
   text-decoration: none;
   font-size: 1.5em;
-  color: rgba(240, 240, 240, 0.7);
+  color: rgba(255, 255, 255, 0.733);
 }
 
-a[href*="html"]:hover {
+a[href*="winter"]:hover {
   color: white;
+}
+
+div#main #card2 {
+  background-color: #ef32d9;
+  margin-top: -10px;
+  padding-top: 0px;
 }
 /*# sourceMappingURL=winter_reviews.css.map */
