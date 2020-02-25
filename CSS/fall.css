@@ -10,8 +10,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: #A59132;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A59132, #DA7422) cover/ no-repeat;  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A59132, #DA7422 ) cover/ no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #A59132, #DA7422);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A59132, #DA7422 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 15%;
   color: rgb(17, 8, 109);
 }
@@ -41,6 +41,10 @@ div#main div#card2 {
   width: 40%;
   float: left;
   text-align: center;
+}
+div.topnav{
+  position: relative;
+  z-index: 98;
 }
 div.help{
   position: absolute;

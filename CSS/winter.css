@@ -4,15 +4,14 @@ html {
 }
 
 body {
+  width: 100%;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: #ef32d9;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#89fffd), to(#ef32d9));
-  background: linear-gradient(to right, #89fffd, #ef32d9);
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 div#main {
@@ -133,9 +132,12 @@ div#footer button {
   background-color: rgba(200, 200, 200, 0.655);
   overflow: hidden;
 }
-
+div.topnav{
+  position: relative;
+  z-index: 98;
+}
 /* Style the links inside the navigation bar */
-.topnav a {
+div.topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
