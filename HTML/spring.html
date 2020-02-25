@@ -11,7 +11,7 @@
 
 <header>
     <p id="bar"></p>
-    <a href="index.html">
+    <a href="../index.html">
         <h1><img src="../pictures/coffee_clipart.png" alt="logo">Seasonal Brewings</h1>
     </a>
     <div class="topnav">
@@ -24,152 +24,185 @@
 </header>
 
 <body>
-    <div id="main">
-        <div id="theme">
-            <ul>
-                <li><button id="pink" type="button" onclick="pink()">Pink!</button></li>
-                <li><button id="yellow" type="button" onclick="yellow()">Yellow!</button></li>
-                <li><button id="green" type="button" onclick="green()">Green!</button></li>
-                <li><button id="purple" type="button" onclick="purple()">Purple!</button></li>
-            </ul>
-        </div>
-        <div id="drink1">
-            <h1>Blueberry Lemonaide</h1>
-            <img src="../pictures/spring_drink1.png" alt="spring" /><br />
-            <h3><a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a></h3>
-            <h2>About: </h2>
-            <p>Our Blueberry Lemonaide drink comes with fresh fruits straight to your door!
-                Mason jar not included.
-            </p>
-            <h2>Ingredients: </h2>
-            <ul>
-                <li>Water</li>
-                <li>Fresh Blueberries</li>
-                <li>Fresh Lemons</li>
-                <li>White Sugar</li>
-            </ul><br />
-            <div id="order">
-                <form>
-                    <h2>Select your rations:</h2>
-                    <form id="rations">
-                        <input name="ration1" type="radio" />
-                        <label id="forRation1" for="ration1">1 Serving</label>
-
-                        <input name="ration2" type="radio" />
-                        <label id="forRation2" for="ration2">3 Servings</label>
-
-                        <input name="ration3" type="radio" />
-                        <label id="forRation3" for="ration3">5 Servings</label><br />
-                        <br />
-
-                        <label id="forRation4" for="ration4">10+ Servings</label>
-                        <input name="ration4" type="text" placeholder="number of servings here">
-                    </form><br />
-                    <form id="payment">
-                        <h2>Payment Information</h2>
-
-                        <label id="credName" for="cName">Cardholder Name:</label>
-                        <input name="cName" type="text" placeholder="First, Mid, Last" /><br />
-
-                        <label id="credit" for="cred">Credit/Debit:</label>
-                        <input name="cred" type="number" placeholder="no dashes" /><br />
-
-                        <label id="CID" for="CCID">CCID:</label>
-                        <input name="CCID" type="number" /><br />
-
-                        <label id="billA" for="billingAddress">Billing Address</label>
-                        <input name="billingAddress" type="text" /><br />
-                    </form><br />
-                    <form id="info">
-                        <h2>Contact Information</h2>
-                        <label id="name1" for="fName">First Name</label>
-                        <input name="fName" type="text" placeholder="First Name Here" /><br />
-
-                        <label id="name2" for="lName">Last Name</label>
-                        <input name="fName" type="text" placeholder="Last Name Here" /><br />
-
-                        <label id="email" for="eMail">E-mail</label>
-                        <input name="eMail" type="email" placeholder="example@example.com" /><br />
-
-                        <label id="phone" for="phoneNum">Phone Number</label>
-                        <input name="phoneNum" type="number" placeholder="xxx-xxx-xxxx" /><br />
-                    </form><br />
-                    <input name="submit" type="submit" />
-                </form>
+    <div class="help">
+        <div id="main">
+            <div id="theme">
+                <ul>
+                    <li><button id="pink" type="button" onclick="pink()">Pink!</button></li>
+                    <li><button id="yellow" type="button" onclick="yellow()">Yellow!</button></li>
+                    <li><button id="green" type="button" onclick="green()">Green!</button></li>
+                    <li><button id="purple" type="button" onclick="purple()">Purple!</button></li>
+                </ul>
             </div>
-        </div>
-        <div id="drink2">
-            <h1>Fruity Refresher</h1>
-            <img src="../pictures/spring_drink2.png" alt="spring" /> <br />
-            <h3><a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a></h3>
-            <h2>About: </h2>
-            <p>Our Fruity Refresher drink comes with fresh fruits straight to your door!
-                Wine glass not included.
-            </p>
-            <h2>Ingredients: </h2>
-            <ul>
-                <li>Strawberry Juice</li>
-                <li>Fresh Strawberries</li>
-                <li>Fresh Blueberries</li>
-                <li>Fresh Lime</li>
-            </ul><br />
-            <div id="order">
-                <form>
-                    <h2>Select your rations:</h2>
-                    <form id="rations">
-                        <input name="ration1" type="radio" />
-                        <label id="forRation1" for="ration1">1 Serving</label>
+            <div id="drink1">
+                <h1>Blueberry Lemonaide</h1>
+                <img src="../pictures/spring_drink1.png" alt="spring" /><br />
+                <h3><a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a></h3>
+                <h2>About: </h2>
+                <p>Our Blueberry Lemonaide drink comes with fresh fruits straight to your door!
+                    Mason jar not included.
+                </p>
+                <h2>Ingredients: </h2>
+                <ul>
+                    <li>Water</li>
+                    <li>Fresh Blueberries</li>
+                    <li>Fresh Lemons</li>
+                    <li>White Sugar</li>
+                </ul><br />
+                <div id="order">
+                    <form>
+                        <h2>Select your rations:</h2>
+                        <form id="rations">
+                            <input name="ration1" type="radio" />
+                            <label id="forRation1" for="ration1">1 Serving</label>
 
-                        <input name="ration2" type="radio" />
-                        <label id="forRation2" for="ration2">3 Servings</label>
+                            <input name="ration2" type="radio" />
+                            <label id="forRation2" for="ration2">3 Servings</label>
 
-                        <input name="ration3" type="radio" />
-                        <label id="forRation3" for="ration3">5 Servings</label><br />
-                        <br />
+                            <input name="ration3" type="radio" />
+                            <label id="forRation3" for="ration3">5 Servings</label><br />
+                            <br />
 
-                        <label id="forRation4" for="ration4">10+ Servings</label>
-                        <input name="ration4" type="text" placeholder="Please put a number of servings here">
-                    </form><br />
-                    <form id="payment">
-                        <h2>Payment Information</h2>
+                            <label id="forRation4" for="ration4">10+ Servings</label>
+                            <input name="ration4" type="text" placeholder="number of servings here">
+                        </form><br />
+                        <form id="payment">
+                            <h2>Payment Information</h2>
 
-                        <label id="credName" for="cName">Cardholder Name:</label>
-                        <input name="cName" type="text" placeholder="First, Mid, Last" /><br />
+                            <label id="credName" for="cName">Cardholder Name:</label>
+                            <input name="cName" type="text" placeholder="First, Mid, Last" /><br />
 
-                        <label id="credit" for="cred">Credit/Debit:</label>
-                        <input name="cred" type="number" placeholder="no dashes" /><br />
+                            <label id="credit" for="cred">Credit/Debit:</label>
+                            <input name="cred" type="number" placeholder="no dashes" /><br />
 
-                        <label id="CID" for="CCID">CCID:</label>
-                        <input name="CCID" type="number" /><br />
+                            <label id="CID" for="CCID">CCID:</label>
+                            <input name="CCID" type="number" /><br />
 
-                        <label id="billA" for="billingAddress">Billing Address</label>
-                        <input name="billingAddress" type="text" /><br />
-                    </form><br />
-                    <form id="info">
-                        <h2>Contact Information</h2>
-                        <label id="name1" for="fName">First Name</label>
-                        <input name="fName" type="text" placeholder="First Name Here" /><br />
+                            <label id="billA" for="billingAddress">Billing Address</label>
+                            <input name="billingAddress" type="text" /><br />
+                        </form><br />
+                        <form id="info">
+                            <h2>Contact Information</h2>
+                            <label id="name1" for="fName">First Name</label>
+                            <input name="fName" type="text" placeholder="First Name Here" /><br />
 
-                        <label id="name2" for="lName">Last Name</label>
-                        <input name="fName" type="text" placeholder="Last Name Here" /><br />
+                            <label id="name2" for="lName">Last Name</label>
+                            <input name="fName" type="text" placeholder="Last Name Here" /><br />
 
-                        <label id="email" for="eMail">E-mail</label>
-                        <input name="eMail" type="email" placeholder="example@example.com" /><br />
+                            <label id="email" for="eMail">E-mail</label>
+                            <input name="eMail" type="email" placeholder="example@example.com" /><br />
 
-                        <label id="phone" for="phoneNum">Phone Number</label>
-                        <input name="phoneNum" type="number" placeholder="xxx-xxx-xxxx" /><br />
-                    </form><br />
-                    <input name="submit" type="submit" />
-                </form>
+                            <label id="phone" for="phoneNum">Phone Number</label>
+                            <input name="phoneNum" type="number" placeholder="xxx-xxx-xxxx" /><br />
+                        </form><br />
+                        <input name="submit" type="submit" />
+                    </form>
+                </div>
+            </div>
+            <div id="drink2">
+                <h1>Fruity Refresher</h1>
+                <img src="../pictures/spring_drink2.png" alt="spring" /> <br />
+                <h3><a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a></h3>
+                <h2>About: </h2>
+                <p>Our Fruity Refresher drink comes with fresh fruits straight to your door!
+                    Wine glass not included.
+                </p>
+                <h2>Ingredients: </h2>
+                <ul>
+                    <li>Strawberry Juice</li>
+                    <li>Fresh Strawberries</li>
+                    <li>Fresh Blueberries</li>
+                    <li>Fresh Lime</li>
+                </ul><br />
+                <div id="order">
+                    <form>
+                        <h2>Select your rations:</h2>
+                        <form id="rations">
+                            <input name="ration1" type="radio" />
+                            <label id="forRation1" for="ration1">1 Serving</label>
+
+                            <input name="ration2" type="radio" />
+                            <label id="forRation2" for="ration2">3 Servings</label>
+
+                            <input name="ration3" type="radio" />
+                            <label id="forRation3" for="ration3">5 Servings</label><br />
+                            <br />
+
+                            <label id="forRation4" for="ration4">10+ Servings</label>
+                            <input name="ration4" type="text" placeholder="Please put a number of servings here">
+                        </form><br />
+                        <form id="payment">
+                            <h2>Payment Information</h2>
+
+                            <label id="credName" for="cName">Cardholder Name:</label>
+                            <input name="cName" type="text" placeholder="First, Mid, Last" /><br />
+
+                            <label id="credit" for="cred">Credit/Debit:</label>
+                            <input name="cred" type="number" placeholder="no dashes" /><br />
+
+                            <label id="CID" for="CCID">CCID:</label>
+                            <input name="CCID" type="number" /><br />
+
+                            <label id="billA" for="billingAddress">Billing Address</label>
+                            <input name="billingAddress" type="text" /><br />
+                        </form><br />
+                        <form id="info">
+                            <h2>Contact Information</h2>
+                            <label id="name1" for="fName">First Name</label>
+                            <input name="fName" type="text" placeholder="First Name Here" /><br />
+
+                            <label id="name2" for="lName">Last Name</label>
+                            <input name="fName" type="text" placeholder="Last Name Here" /><br />
+
+                            <label id="email" for="eMail">E-mail</label>
+                            <input name="eMail" type="email" placeholder="example@example.com" /><br />
+
+                            <label id="phone" for="phoneNum">Phone Number</label>
+                            <input name="phoneNum" type="number" placeholder="xxx-xxx-xxxx" /><br />
+                        </form><br />
+                        <input name="submit" type="submit" />
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-    </div>
+
 </body>
 
 <footer>
     <p><a href="*">Contact Us!</a> &diams; Products created by: Seasonal Brewings&copy; &diams; Branch company of: The
         Nice Dude Products&trade;</p>
 </footer>
+</div>
+<section>
+    <div class="flower">
+        <div><img src="../Animation/flower2.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower2.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower2.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal1.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower4.jpeg" height="45px" width="45px"></div>
+    </div>
+    <div class="flower2">
+        <div><img src="../Animation/petal3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower2.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower4.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal1.jpeg" height="45px" width="45px"></div>
+    </div>
+    <div class="flower3">
+        <div><img src="../Animation/petal1.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower2.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower4.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal1.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower3.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/flower4.jpeg" height="45px" width="45px"></div>
+        <div><img src="../Animation/petal1.jpeg" height="45px" width="45px"></div>
+    </div>
+    </div>
+</section>
 
 </html>

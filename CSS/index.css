@@ -3,20 +3,13 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
-<<<<<<< HEAD
-html {
-	font-family: 'Montserrat', sans-serif;
-	height: 100%;
-	width: 100%;
-}
-
 /* body styles */
 body div#index {
 	width: 80%;
 	padding: 1em;
 	margin: auto;
-	border-radius: 1em;
-=======
+   border-radius: 1em;
+}
 html{
    font-family: 'Montserrat', sans-serif; 
    height: 100%;
