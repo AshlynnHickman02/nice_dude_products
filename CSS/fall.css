@@ -393,7 +393,7 @@ animation-delay:-19s;
   }
   100%{
      
-      top:250%;
+      top:110%;
       transform:translateX (-100px) rotateX(200deg);
   }
 }
