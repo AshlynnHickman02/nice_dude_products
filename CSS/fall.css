@@ -131,7 +131,6 @@ div#main #text {
   text-align: left;
   padding: 5px 15px;
   font-size: 1.25em;
-  color: rgba(80, 37, 236, 0.7);
 }
 
 hr {
@@ -166,7 +165,17 @@ a[href*="Reviews"] {
 a[href*="Reviews"]:hover {
   color: white;
 }
+a[href*="fall"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(240, 240, 240, 0.7);
+}
 
+a[href*="fall"]:hover {
+  color: white;
+}
 div#footer {
   width: 50%;
   margin: -250px auto;
