@@ -229,7 +229,7 @@ display:block ;
  
 }
 .snow div:nth-child(4){
-  left:50%;
+  left:30%;
  animation:falling 18s linear infinite ;
  animation-delay:-6s;
 }
@@ -268,7 +268,7 @@ animation:falling 17s linear infinite ;
 animation-delay:-3s;
 }
 .snow2 div:nth-child(2){
-left:60%;
+left:5%;
 animation:falling 15s linear infinite ;
 animation-delay:-1s;
 }
@@ -279,7 +279,7 @@ animation-delay:-9s;
 
 }
 .snow2 div:nth-child(4){
-left:53%;
+left:95%;
 animation:falling 19s linear infinite ;
 animation-delay:-3s;
 }

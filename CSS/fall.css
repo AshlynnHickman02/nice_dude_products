@@ -285,7 +285,7 @@ animation:falling 17s linear infinite ;
 animation-delay:-3s;
 }
 .leaves2 div:nth-child(2){
-left:60%;
+left:65%;
 animation:falling 15s linear infinite ;
 animation-delay:-1s;
 }
@@ -296,7 +296,7 @@ animation-delay:-9s;
 
 }
 .leaves2 div:nth-child(4){
-left:53%;
+left:3%;
 animation:falling 19s linear infinite ;
 animation-delay:-3s;
 }
@@ -306,7 +306,7 @@ animation:falling 20s linear infinite ;
 animation-delay:-7s;
 }
 .leaves2 div:nth-child(6){
-left:15%;
+left:10%;
 animation:falling 17s linear infinite ;
 animation-delay:-6s;
 }
@@ -330,13 +330,13 @@ transform: translate3d(50deg);
 transform: rotate3d(1,1.5,2,10deg);
 }
 .leaves3 div:nth-child(1){
-left:25%;
+left:15%;
 animation:falling 15s linear infinite ;
 animation-delay:-9s;
 
 }
 .leaves3 div:nth-child(2){
-left:66%;
+left:25%;
 animation:falling 14s linear infinite ;
 animation-delay:-4s;
 }
@@ -347,7 +347,7 @@ animation-delay:-5s;
 
 }
 .leaves3 div:nth-child(4){
-left:58%;
+left:85%;
 animation:falling 12s linear infinite ;
 animation-delay:-8s;
 }
@@ -357,7 +357,7 @@ animation:falling 11s linear infinite ;
 animation-delay:-7s;
 }
 .leaves3 div:nth-child(6){
-left:33%;
+left:30%;
 animation:falling 16s linear infinite ;
 animation-delay:-8s;
 }
@@ -389,7 +389,7 @@ animation-delay:-19s;
   }
   100%{
      
-      top:225%;
+      top:250%;
       transform:translateX (-100px) rotateX(200deg);
   }
 }
