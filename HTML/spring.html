@@ -11,16 +11,14 @@
 
 <header>
     <p id="bar"></p>
-    <h1><img src="../pictures/coffee_clipart.png" alt="logo">Seasonal Brewings</h1>
-    <div id="nav">
-        <nav>
-            <ul>
-                <li><a href="HTML/spring.html" id="spring">thirsty during Spring?</a></li>
-                <li><a href="HTML/summer.html" id="summer">dehydrated in the Summer sun?</a></li>
-                <li><a href="HTML/fall.html" id="fall">need your spice fix in the Fall?</a></li>
-                <li><a href="winter.html" id="winter">a little too cold in the Winter?</a></li>
-            </ul>
-        </nav>
+    <a href="index.html">
+        <h1><img src="../pictures/coffee_clipart.png" alt="logo">Seasonal Brewings</h1>
+    </a>
+    <div class="topnav">
+        <a id="springish" href="../HTML/spring.html">thirsty during Spring?</a>
+        <a id="summerish" href="../HTML/summer.html">dehydrated in the Summer sun?</a>
+        <a id="fallish" href="../HTML/fall.html">need your spice fix in the Fall?</a>
+        <a id="winterish" href="../HTML/winter.html">a little too cold in the Winter?</a>
     </div>
 
 </header>
@@ -29,28 +27,20 @@
     <div id="main">
         <div id="theme">
             <ul>
-                <button type="button" onclick="pink()">
-                    <li>Pink!</li>
-                </button>
-                <button type="button" onclick="yellow()">
-                    <li>Yellow!</li>
-                </button>
-                <button type="button" onclick="green()">
-                    <li>Green!</li>
-                </button>
-                <button type="button" onclick="purple()">
-                    <li>Purple!</li>
-                </button>
+                <li><button id="pink" type="button" onclick="pink()">Pink!</button></li>
+                <li><button id="yellow" type="button" onclick="yellow()">Yellow!</button></li>
+                <li><button id="green" type="button" onclick="green()">Green!</button></li>
+                <li><button id="purple" type="button" onclick="purple()">Purple!</button></li>
             </ul>
         </div>
         <div id="drink1">
             <h1>Blueberry Lemonaide</h1>
             <img src="../pictures/spring_drink1.png" alt="spring" /><br />
-            <a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a>
+            <h3><a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a></h3>
             <h2>About: </h2>
             <p>Our Blueberry Lemonaide drink comes with fresh fruits straight to your door!
                 Mason jar not included.
-            </p><br />
+            </p>
             <h2>Ingredients: </h2>
             <ul>
                 <li>Water</li>
@@ -73,7 +63,7 @@
                         <br />
 
                         <label id="forRation4" for="ration4">10+ Servings</label>
-                        <input name="ration4" type="text" placeholder="Please put a number of servings here">
+                        <input name="ration4" type="text" placeholder="number of servings here">
                     </form><br />
                     <form id="payment">
                         <h2>Payment Information</h2>
@@ -111,18 +101,18 @@
         <div id="drink2">
             <h1>Fruity Refresher</h1>
             <img src="../pictures/spring_drink2.png" alt="spring" /> <br />
-            <a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a>
+            <h3><a id="revLink" href="springRev.html">Click here for our Customer Reviews!</a></h3>
             <h2>About: </h2>
             <p>Our Fruity Refresher drink comes with fresh fruits straight to your door!
                 Wine glass not included.
             </p>
             <h2>Ingredients: </h2>
-            <p>Strawberry Juice <br />
-                Fresh Strawberries <br />
-                Fresh Blueberries <br />
-                Fresh Lime <br />
-                White Sugar <br />
-            </p>
+            <ul>
+                <li>Strawberry Juice</li>
+                <li>Fresh Strawberries</li>
+                <li>Fresh Blueberries</li>
+                <li>Fresh Lime</li>
+            </ul><br />
             <div id="order">
                 <form>
                     <h2>Select your rations:</h2>

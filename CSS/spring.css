@@ -3,6 +3,10 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
+a{
+    text-decoration: none;
+}
+
 html{
     font-family: 'Montserrat', sans-serif; 
     height: 100%;
@@ -11,11 +15,11 @@ html{
 
 /* header styles */
 #bar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
     background-color: rgb(51, 51, 51);
     height: .4em;
-}
-#why{
-    color: black;
 }
 header{
     width: 100%;
@@ -23,7 +27,8 @@ header{
 header img {
     width: 1em;
 }
-header h1 {
+header h1 {    
+    color: rgb(51, 51, 51);
     padding-top: .3em;
     padding-left: .4em;
     height: 2em;
@@ -31,109 +36,131 @@ header h1 {
     font-family: 'Nunito', sans-serif;
     background-color: linear-gradient(#FFD6E0, rgb(204, 185, 209));
 }
-#presentation {
-    width: 70%;
-    margin-left: 15%;
-}
  
 /* navigation styles */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-nav {
+.topnav {
     width: 100%;
+    overflow: hidden;
+    background-color: rgb(152, 224, 226);
 }
-nav li {
+.topnav a {
+    width: 24%;
     float: left;
-    display: Inline;
     text-align: center;
-    height: 1.5em;
-    width: 20em;
+    padding: .2em;
+    text-decoration: none;
+    font-size: 1.2em;
 }
-#spring{
-    color: rgb(253, 252, 252);
-    background-color: rgb(240, 150, 248);
+#springish{
+    color: white;
+    background-color: pink;
 }
-#spring:hover {
-    color: rgb(226, 223, 223);
-    background-color: rgb(210, 150, 216);
+#summerish{
+    color: rgb(51, 51, 51);
+    background-color: yellow;
 }
-#summer {
-    background-color: rgb(255, 255, 43);
-    color: rgb(49, 49, 49);
-}
-#summer:hover {
-    color: black;
-    background-color: rgb(236, 236, 72);
-}
-#fall {
+#fallish{
+    color: rgb(51, 51, 51);
     background-color: orange;
-    color: rgb(49, 49, 49);
 }
-#fall:hover {
-    background-color: rgb(223, 147, 6);
-    color: black;
+#winterish{    
+    color: rgb(51, 51, 51);
+    background-color: rgb(152, 224, 226);
 }
-#winter {
-    background-color: rgb(114, 241, 250);
-    color: rgb(49, 49, 49);
-}
-#winter:hover {
-    background-color: rgb(100, 205, 212);
-    color: black;
-}
- 
+
 /* themes */
-#theme button{
-    display: block;
+div#theme button{
+    font-family: 'Nunito', sans-serif;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 1em;
+    padding: 3em;
+    border-radius: 100em;
+}
+#pink{
+    color: white;
+    background-color: rgb(255, 158, 182);
+}
+#yellow{
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 138);
+}
+#green{
+    color: rgb(51, 51, 51);
+    background-color: rgb(120, 233, 120);
+}
+#purple{
+    color: white;
+    background-color: rgb(252, 116, 252);
 }
 
 /* body styles */
-body:not(#why) {
+
+form#order input, form#order label{
+    margin-left: 1em;
+}
+div#drink1, div#drink2{
+    padding: 1em;
+}
+h3{
+    text-align: center;
+    padding: 1em;
+}
+body:not(#bar){
     height: 100%;
-    margin: 0em;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: #FFEF9F;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-gradient(linear-gradient((#FFEF9F),(#FFD6E0)));
     background: linear-gradient(#FFEF9F, #FFD6E0);
     margin-bottom: 15%;
 }
-    
-div#main::after, div#cards + div#main {
+
+     /* theme buttons and cards layout */
+div#main::after, div#theme + div#cards + div#main {
     content: "";
     display: table;
     clear: both;
 }
-  
 div#main h1{
     text-align: center;
 }
-div#main div#drink1,
-div#main div#drink2 {
-    border: outset .1em rgb(250, 198, 211);
-    border-radius: 1em;
-    margin-left: 10%;
-    width: 35%;
+div#main div#theme{
+    width: 15%;
+    margin-left: 1%;
     float: left;
 }
+div#main div#drink1,
+div#main div#drink2{
+    width: 35%;
+    border: outset .1em rgb(250, 198, 211);
+    border-radius: 1em;
+    float: left;
+}
+div#main div#drink1{
+    margin-right: 1em;
+}
+
 div#main div#drink1 img, 
 div#main div#drink2 img{
-    margin-left: 30%;
-    margin-right: auto;
     padding: 20px;
+    border-radius: 1em;
+    height: 100%;
 }
 #drink1 li, #rations{
     margin-left: 1em;
 }
 #drink1 img{
+    margin-left: 30%;
+    margin-right: auto;
     background-color: #FFEF9F;
     border: solid 3px rgb(250, 193, 207);
-    border-radius: 10px;
+}
+#drink2 img{
+    margin-left: 25%;
+    width: 50%;
+    background-color: #FFD6E0;
+    border: solid 3px rgb(255, 237, 148);
 }
   
 div#main #drink1 {
@@ -144,7 +171,7 @@ div#main #drink2 {
     background-color: rgb(252, 241, 189);
 }
     
-  div#main img {
+div#main img {
     height: 40%;
     width: 40%;
 }
