@@ -15,4 +15,9 @@ div#main #card2 {
   margin-top: -10px;
   padding-top: 0px;
 }
+
+div#main {
+  -webkit-transform: translateX(12%) translateY(-12%);
+          transform: translateX(12%) translateY(-12%);
+}
 /*# sourceMappingURL=winter_reviews.css.map */
