@@ -1,439 +1,411 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: #A59132;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A59132, #DA7422);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A59132, #DA7422 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: rgb(238, 255, 4);
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: #a59132; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #a59132, #da7422); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#a59132,
+		#da7422
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgb(238, 255, 4);
 }
-
-ol li{
-  list-style-type: decimal;
+ol li {
+	list-style-type: decimal;
 }
-
-div.topnav{
-  position: relative;
-  z-index: 98;
+div.topnav {
+	position: relative;
+	z-index: 98;
 }
-div.help{
-  position: absolute;
-  z-index: 99;
+div.help {
+	position: absolute;
+	z-index: 99;
 }
 div#main #card1 {
-  background-color: #CC5543;
+	background-color: #cc5543;
 }
-
 div#main #card2 {
-  background-color: #DBE6AF;
-  padding: 0px;
+	background-color: #dbe6af;
+	padding: 0px;
 }
 div#main img#red {
-  height: 15%;
-  width: 35%;
-  margin-bottom: 50px;
-  padding-right: 50px;
+	height: 15%;
+	width: 35%;
+	margin-bottom: 50px;
+	padding-right: 50px;
 }
-li#checkout a{
-  color: rgb(253, 55, 55);
-  transition: transform ease 0.5s;
+li#checkout a {
+	color: rgb(253, 55, 55);
+	transition: transform ease 0.5s;
 }
-li#checkout{
-  color: rgb(253, 55, 55);
-  transition: transform ease 0.5s;
+li#checkout {
+	color: rgb(253, 55, 55);
+	transition: transform ease 0.5s;
 }
-li#checkout:hover{
-  color: rgb(255, 255, 255);
-  transform: scaleX(1.05) scaleY(1.05);
+li#checkout:hover {
+	color: rgb(255, 255, 255);
+	transform: scaleX(1.05) scaleY(1.05);
 }
-li#checkout a:hover{
-  color: rgb(255, 255, 255);
+li#checkout a:hover {
+	color: rgb(255, 255, 255);
 }
 div#footer {
-  width: 50%;
-  margin: -250px auto;
-  text-align: center;
-  font-size: 1.5em;
-  padding-top: 25px;
+	width: 50%;
+	margin: -250px auto;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 25px;
 }
-
 div#footer button {
-  clear: both;
-  font-size: 1.5em;
-  border-radius: 20px;
-  margin: auto;
-  margin-top: 1%;
-  margin-bottom: 1%;
+	clear: both;
+	font-size: 1.5em;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
-
 html {
-  height: auto;
-  margin-bottom: 175px;
+	height: auto;
+	margin-bottom: 175px;
 }
-
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-
 div#main {
-  -webkit-transform: translateX(7%) translateY(-10%);
-          transform: translateX(7%) translateY(-10%);
-  width: 75%;
-  margin: 15% auto;
+	-webkit-transform: translateX(7%) translateY(-10%);
+	transform: translateX(7%) translateY(-10%);
+	width: 75%;
+	margin: 15% auto;
 }
-
 div#main::after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-
 div#main div#card1,
 div#main div#card2 {
-  border: outset 5px black;
-  border-radius: 15px;
-  -webkit-box-shadow: black 15px 5px 25px;
-          box-shadow: black 15px 5px 25px;
-  margin-left: 15px;
-  margin-right: 45px;
-  width: 40%;
-  float: left;
-  text-align: center;
+	border: outset 5px black;
+	border-radius: 15px;
+	-webkit-box-shadow: black 15px 5px 25px;
+	box-shadow: black 15px 5px 25px;
+	margin-left: 15px;
+	margin-right: 45px;
+	width: 40%;
+	float: left;
+	text-align: center;
 }
-
-
 div#main ul,
 div#main ol {
-  padding: 1% 10%;
+	padding: 1% 10%;
 }
-
 div#main img {
-  height: 50%;
-  width: 50%;
-  margin-bottom: 0px;
+	height: 50%;
+	width: 50%;
+	margin-bottom: 0px;
 }
-
 div#main h2 {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 175%;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 175%;
 }
-
 div#main #text {
-  margin-top: -115px;
-  font-weight: 600;
-  text-align: left;
-  padding: 5px 15px;
-  font-size: 1.25em;
+	/* margin-top: -115px; */
+	font-weight: 600;
+	text-align: left;
+	padding: 5px 15px;
+	font-size: 1.25em;
 }
-
+div#main #text:nth-of-type(2) {
+	margin-top: -50px;
+	color: black;
+}
 hr {
-  width: 100%;
+	width: 100%;
 }
-
 #text li {
-  font-size: 1.55em;
-  line-height: 102%;
+	font-size: 1.55em;
+	line-height: 102%;
 }
-
 *[id*="card"] {
-  -webkit-transition: -webkit-transform ease 0.5s;
-  transition: -webkit-transform ease 0.5s;
-  transition: transform ease 0.5s;
-  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+	-webkit-transition: -webkit-transform ease 0.5s;
+	transition: -webkit-transform ease 0.5s;
+	transition: transform ease 0.5s;
+	transition: transform ease 0.5s, -webkit-transform ease 0.5s;
 }
-
 *[id*="card"]:hover {
-  -webkit-transform: scaleX(1.05) scaleY(1.05);
-          transform: scaleX(1.05) scaleY(1.05);
+	-webkit-transform: scaleX(1.05) scaleY(1.05);
+	transform: scaleX(1.05) scaleY(1.05);
 }
-
 a[href*="Reviews"] {
-  -webkit-transition: color 0.5s ease;
-  transition: color 0.5s ease;
-  text-decoration: none;
-  font-size: 1.5em;
-  color: rgba(240, 240, 240, 0.7);
+	-webkit-transition: color 0.5s ease;
+	transition: color 0.5s ease;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: rgba(240, 240, 240, 0.7);
 }
-
 a[href*="Reviews"]:hover {
-  color: white;
+	color: white;
 }
 a[href*="fall"] {
-  -webkit-transition: color 0.5s ease;
-  transition: color 0.5s ease;
-  text-decoration: none;
-  font-size: 1.5em;
-  color: rgba(240, 240, 240, 0.7);
+	-webkit-transition: color 0.5s ease;
+	transition: color 0.5s ease;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: rgba(240, 240, 240, 0.7);
 }
-
 a[href*="fall"]:hover {
-  color: white;
+	color: white;
 }
 div#footer {
-  width: 50%;
-  margin: -250px auto;
-  text-align: center;
-  font-size: 1.5em;
+	width: 50%;
+	margin: -250px auto;
+	text-align: center;
+	font-size: 1.5em;
 }
-
 div#footer button {
-  clear: both;
-  font-size: 1.5em;
-  border-radius: 20px;
-  margin-bottom: 40px;
+	clear: both;
+	font-size: 1.5em;
+	border-radius: 20px;
+	margin-bottom: 40px;
 }
-
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(200, 200, 200, 0.655);
-  overflow: hidden;
+	background-color: rgba(200, 200, 200, 0.655);
+	overflow: hidden;
 }
-div.topnav{
-  position: relative;
-  z-index: 98;
+div.topnav {
+	position: relative;
+	z-index: 98;
 }
 /* Style the links inside the navigation bar */
 div.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.75em;
-  -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
-  transition: background-color 0.5s ease, color 0.565s ease-in;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.75em;
+	-webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+	transition: background-color 0.5s ease, color 0.565s ease-in;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-size: 100%;
-  background-color: #ddd;
-  color: black;
+	background-size: 100%;
+	background-color: #ddd;
+	color: black;
 }
-
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #ffae00;
-  color: black;
+	background-color: #ffae00;
+	color: black;
 }
-
 /* Right-aligned section inside the top navigation */
 .topnav-right {
-  float: right;
+	float: right;
 }
-
 a {
-  -webkit-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
 }
-
 @media only screen and (max-width: 1800px) {
-  div#main div#card1,
-  div#main div#card2 {
-    width: 75%;
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
-  }
-  div#main #card1 {
-    margin-bottom: 25px;
-  }
-  div#main {
-    -webkit-transform: translateY(-80px);
-            transform: translateY(-80px);
-  }
-  *[class*="nav"] {
-    -webkit-transform: scaleY(1.035);
-            transform: scaleY(1.035);
-  }
+	div#main div#card1,
+	div#main div#card2 {
+		width: 75%;
+		-webkit-transform: translateX(10%);
+		transform: translateX(10%);
+	}
+	div#main #card1 {
+		margin-bottom: 25px;
+	}
+	div#main {
+		-webkit-transform: translateY(-80px);
+		transform: translateY(-80px);
+	}
+	*[class*="nav"] {
+		-webkit-transform: scaleY(1.035);
+		transform: scaleY(1.035);
+	}
 }
-/*# sourceMappingURL=winter.css.map */
-section{
-  height: 100%;
-  z-index: 100;
+/* # sourceMappingURL=winter.css.map */
+section {
+	height: 100%;
+	z-index: 100;
 }
-.leaves{
-  position:absolute ;
-  width:100%;
-  height:100%;
-  top:0;
-  left:0;
-  transform: rotateY(-30deg);
-  transform: translate3d(50deg);
-  transform: rotate3d(1,1.5,2,-10deg);
+.leaves {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: rotateY(-30deg);
+	transform: translate3d(50deg);
+	transform: rotate3d(1, 1.5, 2, -10deg);
 }
-.leaves div{
-position:absolute ;
-display:block ;
+.leaves div {
+	position: absolute;
+	display: block;
 }
-.leaves div:nth-child(1){
-  left:20%;
-  animation:falling 9s linear infinite ;
-  animation-delay:-1s;
-
+.leaves div:nth-child(1) {
+	left: 20%;
+	animation: falling 9s linear infinite;
+	animation-delay: -1s;
 }
-.leaves div:nth-child(2){
-  left:70%;
-  animation:falling 17s linear infinite ;
-  animation-delay:-3s;
+.leaves div:nth-child(2) {
+	left: 70%;
+	animation: falling 17s linear infinite;
+	animation-delay: -3s;
 }
-.leaves div:nth-child(3){
-  left:10%;
-  animation:falling 23s linear infinite ;
-  animation-delay:-5s;
- 
+.leaves div:nth-child(3) {
+	left: 10%;
+	animation: falling 23s linear infinite;
+	animation-delay: -5s;
 }
-.leaves div:nth-child(4){
-  left:50%;
- animation:falling 18s linear infinite ;
- animation-delay:-6s;
+.leaves div:nth-child(4) {
+	left: 50%;
+	animation: falling 18s linear infinite;
+	animation-delay: -6s;
 }
-.leaves div:nth-child(5){
-  left:85%;
-  animation:falling 15s linear infinite ;
-  animation-delay:-8s;
+.leaves div:nth-child(5) {
+	left: 85%;
+	animation: falling 15s linear infinite;
+	animation-delay: -8s;
 }
-.leaves div:nth-child(6){
-  left:15%;
-  animation:falling 12s linear infinite ;
-  animation-delay:-10s;
+.leaves div:nth-child(6) {
+	left: 15%;
+	animation: falling 12s linear infinite;
+	animation-delay: -10s;
 }
-.leaves div:nth-child(7){
-  left:90%;
-  animation:falling 13s linear infinite ;
-  animation-delay:-4s;
+.leaves div:nth-child(7) {
+	left: 90%;
+	animation: falling 13s linear infinite;
+	animation-delay: -4s;
 }
-.leaves2{
-position:absolute ;
-width:100%;
-height:100%;
-top:0;
-left:0;
+.leaves2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
-.leaves2 div{
-position:absolute ;
-display:block ;
-transform: rotateY(-30deg);
-transform: translate3d(50deg);
-transform: rotate3d(1,1.5,2,-15deg);
+.leaves2 div {
+	position: absolute;
+	display: block;
+	transform: rotateY(-30deg);
+	transform: translate3d(50deg);
+	transform: rotate3d(1, 1.5, 2, -15deg);
 }
-.leaves2 div:nth-child(1){
-left:10%;
-animation:falling 17s linear infinite ;
-animation-delay:-3s;
+.leaves2 div:nth-child(1) {
+	left: 10%;
+	animation: falling 17s linear infinite;
+	animation-delay: -3s;
 }
-.leaves2 div:nth-child(2){
-left:65%;
-animation:falling 15s linear infinite ;
-animation-delay:-1s;
+.leaves2 div:nth-child(2) {
+	left: 65%;
+	animation: falling 15s linear infinite;
+	animation-delay: -1s;
 }
-.leaves2 div:nth-child(3){
-left:17%;
-animation:falling 26s linear infinite ;
-animation-delay:-9s;
-
+.leaves2 div:nth-child(3) {
+	left: 17%;
+	animation: falling 26s linear infinite;
+	animation-delay: -9s;
 }
-.leaves2 div:nth-child(4){
-left:3%;
-animation:falling 19s linear infinite ;
-animation-delay:-3s;
+.leaves2 div:nth-child(4) {
+	left: 3%;
+	animation: falling 19s linear infinite;
+	animation-delay: -3s;
 }
-.leaves2 div:nth-child(5){
-left:75%;
-animation:falling 20s linear infinite ;
-animation-delay:-7s;
+.leaves2 div:nth-child(5) {
+	left: 75%;
+	animation: falling 20s linear infinite;
+	animation-delay: -7s;
 }
-.leaves2 div:nth-child(6){
-left:10%;
-animation:falling 17s linear infinite ;
-animation-delay:-6s;
+.leaves2 div:nth-child(6) {
+	left: 10%;
+	animation: falling 17s linear infinite;
+	animation-delay: -6s;
 }
-.leaves2 div:nth-child(7){
-left:80%;
-animation:falling 11s linear infinite ;
-animation-delay:-10s;
+.leaves2 div:nth-child(7) {
+	left: 80%;
+	animation: falling 11s linear infinite;
+	animation-delay: -10s;
 }
-.leaves3{
-position:absolute ;
-width:100%;
-height:100%;
-top:0;
-left:0;
+.leaves3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
-.leaves3 div{
-position:absolute ;
-display: block;
-transform: rotateY(-30deg);
-transform: translate3d(50deg);
-transform: rotate3d(1,1.5,2,10deg);
+.leaves3 div {
+	position: absolute;
+	display: block;
+	transform: rotateY(-30deg);
+	transform: translate3d(50deg);
+	transform: rotate3d(1, 1.5, 2, 10deg);
 }
-.leaves3 div:nth-child(1){
-left:15%;
-animation:falling 15s linear infinite ;
-animation-delay:-9s;
-
+.leaves3 div:nth-child(1) {
+	left: 15%;
+	animation: falling 15s linear infinite;
+	animation-delay: -9s;
 }
-.leaves3 div:nth-child(2){
-left:25%;
-animation:falling 14s linear infinite ;
-animation-delay:-4s;
+.leaves3 div:nth-child(2) {
+	left: 25%;
+	animation: falling 14s linear infinite;
+	animation-delay: -4s;
 }
-.leaves3 div:nth-child(3){
-left:30%;
-animation:falling 20s linear infinite ;
-animation-delay:-5s;
-
+.leaves3 div:nth-child(3) {
+	left: 30%;
+	animation: falling 20s linear infinite;
+	animation-delay: -5s;
 }
-.leaves3 div:nth-child(4){
-left:85%;
-animation:falling 12s linear infinite ;
-animation-delay:-8s;
+.leaves3 div:nth-child(4) {
+	left: 85%;
+	animation: falling 12s linear infinite;
+	animation-delay: -8s;
 }
-.leaves3 div:nth-child(5){
-left:78%;
-animation:falling 11s linear infinite ;
-animation-delay:-7s;
+.leaves3 div:nth-child(5) {
+	left: 78%;
+	animation: falling 11s linear infinite;
+	animation-delay: -7s;
 }
-.leaves3 div:nth-child(6){
-left:30%;
-animation:falling 16s linear infinite ;
-animation-delay:-8s;
+.leaves3 div:nth-child(6) {
+	left: 30%;
+	animation: falling 16s linear infinite;
+	animation-delay: -8s;
 }
-.leaves3 div:nth-child(7){
-left:92%;
-animation:falling 15s linear infinite ;
-animation-delay:-19s;
+.leaves3 div:nth-child(7) {
+	left: 92%;
+	animation: falling 15s linear infinite;
+	animation-delay: -19s;
 }
-@keyframes falling{
-  0%{
-      opacity:1;
-      top:-10%;
-      transform:translateX (5px) rotateX(0deg);
-  }
-  15%{
-      opacity:0.7;
-      transform:translateX (-100px) rotateX(30deg);
-  }
-  30%{
-      transform:translateX (-100px) rotateX(70deg);
-  }
-  60%{
-     
-     transform:translateX (-100px) rotateX(45);
-  }
-  75%{
- 
-      transform:translateX (-100px) rotateX(60deg);
-  }
-  100%{
-     
-      top:110%;
-      transform:translateX (-100px) rotateX(200deg);
-  }
+@keyframes falling {
+	0% {
+		opacity: 1;
+		top: -10%;
+		transform: translateX (5px) rotateX(0deg);
+	}
+	15% {
+		opacity: 0.7;
+		transform: translateX (-100px) rotateX(30deg);
+	}
+	30% {
+		transform: translateX (-100px) rotateX(70deg);
+	}
+	60% {
+		transform: translateX (-100px) rotateX(45);
+	}
+	75% {
+		transform: translateX (-100px) rotateX(60deg);
+	}
+	100% {
+		top: 110%;
+		transform: translateX (-100px) rotateX(200deg);
+	}
 }
