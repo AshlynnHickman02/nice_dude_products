@@ -11,86 +11,87 @@ html{
 }
 
 /* header styles */
-#bar{
-   background-color: rgb(51, 51, 51);
-   height: 5px;
+#bar {
+	background-color: rgb(51, 51, 51);
+	height: .4em;
 }
-#why{
-   color: black;
+#why {
+	color: black;
 }
-header{
-   width: 100%;
+header {
+	width: 100%;
 }
-header img{
-   width: 25px;
+header img {
+	width: 1em;
 }
-header h1{
-   padding-top: 10px;
-   padding-left: 10px;
-   height: 50px;
-   font-size: 25px;
-   font-family: 'Nunito', sans-serif;
-   background-color: white;
+header h1 {
+	padding-top: .3em;
+	padding-left: .4em;
+	height: 2em;
+	font-size: 2em;
+	font-family: 'Nunito', sans-serif;
+	background-color: white;
 }
-#presentation{
-   width: 50%;
-   margin-left: 25%;
+#presentation {
+	width: 70%;
+	margin-left: 15%;
 }
 
 /* navigation styles */
 .clearfix::after {
-   content: "";
-   display: table;
-   clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-nav{
-   width: 100%;
+nav {
+	width: 100%;
 }
-nav li{
-   float: left;
-   display: Inline;
-   width: 25%;
-   text-align: center;
+nav li {
+	float: left;
+	display: Inline;
+	text-align: center;
+	height: 1.5em;
+	width: 20em;
 }
 #spring{
-   color: rgb(253, 252, 252);
-   background-color:rgb(240, 150, 248);
+	color: rgb(253, 252, 252);
+	background-color: rgb(240, 150, 248);
 }
-#spring:hover{
-   color: rgb(226, 223, 223);
-   background-color: rgb(210, 150, 216);
+#spring:hover {
+	color: rgb(226, 223, 223);
+	background-color: rgb(210, 150, 216);
 }
-#summer{
-   background-color: rgb(255, 255, 43);
-   color: rgb(49, 49, 49);
+#summer {
+	background-color: rgb(255, 255, 43);
+	color: rgb(49, 49, 49);
 }
-#summer:hover{
-   color: black;
-   background-color: rgb(236, 236, 72);
+#summer:hover {
+	color: black;
+	background-color: rgb(236, 236, 72);
 }
-#fall{
-   background-color: orange;
-   color: rgb(49, 49, 49);
+#fall {
+	background-color: orange;
+	color: rgb(49, 49, 49);
 }
-#fall:hover{
-   background-color: rgb(223, 147, 6);
-   color: black;
+#fall:hover {
+	background-color: rgb(223, 147, 6);
+	color: black;
 }
-#winter{
-   background-color: rgb(114, 241, 250);
-   color: rgb(49, 49, 49);
+#winter {
+	background-color: rgb(114, 241, 250);
+	color: rgb(49, 49, 49);
 }
-#winter:hover{
-   background-color: rgb(100, 205, 212);
-   color: black;
+#winter:hover {
+	background-color: rgb(100, 205, 212);
+	color: black;
 }
 
 /* body styles */
-body div{
-   width: 80%;
-   padding: 15px;
-   margin: auto;
-   border-radius: 10px;
+body div {
+	width: 80%;
+	padding: 1em;
+	margin: auto;
+	border-radius: 1em;
 }
 body div h1{
    margin-left: 10px;
@@ -98,115 +99,112 @@ body div h1{
    padding: 5px;
    height: 35px;
 }
-
-/* sections */
-body a{
-   color: white;
-   text-decoration: none;
+a{
+	text-decoration: none;
 }
 /* spring hover */
-#hovSpring{
-   display: none;
+#hovSpring {
+	display: none;
 }
-#hovSpring:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovSpring:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-#hovSpring img{
-   margin-left: 25;
-   background-color: rgb(243, 217, 239);
-   border: solid rgb(210, 150, 216) 2px;
-   border-radius: 5px;
+#hovSpring img {
+	margin-left: 25;
+	background-color: rgb(243, 217, 239);
+	border: solid rgb(210, 150, 216) 2px;
+	border-radius: 5px;
 }
-#hovSpring h1{
-   font-size: 2em; 
-   margin: 5px;
+#hovSpring h1 {
+	font-size: 2em;
+	margin: 5px;
 }
 
 /* summer hover */
-#hovSummer{
-   display: none;
+#hovSummer {
+	display: none;
 }
-#hovSummer:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovSummer:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-#hovSummer img{
-   margin-left: 25;
-   background-color: rgb(245, 252, 207);
-   border: solid rgb(217, 240, 88) 2px;
-   border-radius: 5px;
+#hovSummer img {
+	margin-left: 25;
+	background-color: rgb(245, 252, 207);
+	border: solid rgb(217, 240, 88) 2px;
+	border-radius: 5px;
 }
-#hovSummer h1{
-   font-size: 2em; 
-   margin: 5px;
+#hovSummer h1 {
+	font-size: 2em;
+	margin: 5px;
 }
 
 /* fall hover */
-#hovFall{
-   display: none;
+#hovFall {
+	display: none;
 }
-#hovFall:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovFall:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-#hovFall img{
-   margin-left: 15;
-   background-color: rgb(238, 205, 175);
-   border: solid rgb(252, 200, 104) 2px;
-   border-radius: 5px;
+#hovFall img {
+	margin-left: 15;
+	background-color: rgb(238, 205, 175);
+	border: solid rgb(252, 200, 104) 2px;
+	border-radius: 5px;
 }
-#hovFall h1{
-   font-size: 2em; 
-   margin: 5px;
+#hovFall h1 {
+	font-size: 2em;
+	margin: 5px;
 }
 
 /* winter hover */
-#hovWinter{
-   display: none;
+#hovWinter {
+	display: none;
 }
-#hovWinter:hover{
-   display: block;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
+#hovWinter:hover {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-#hovWinter img{
-   margin-left: 20;
-   background-color: rgb(168, 245, 245);
-   border: solid rgb(137, 135, 245) 2px;
-   border-radius: 5px;
+#hovWinter img {
+	margin-left: 20;
+	background-color: rgb(168, 245, 245);
+	border: solid rgb(137, 135, 245) 2px;
+	border-radius: 5px;
 }
-#hovWinter h1{
-   font-size: 2em; 
-   margin: 5px;
+#hovWinter h1 {
+	font-size: 2em;
+	margin: 5px;
 }
 
 /* information */
-#who{
-   margin-top: 10px;
-   border: solid rgb(240, 150, 248) 2px;
+#who {
+	margin-top: .8em;
+	border: solid rgb(240, 150, 248) .1em;
 }
-#who h1{
-   background-color: pink; 
+#who h1 {
+	background-color: pink;
 }
 
-#how{
-   margin-top: 10px;
-   border: solid rgb(216, 89, 228) 2px;
+#how {
+	margin-top: 10px;
+	border: solid rgb(216, 89, 228) .1em;
 }
-#how h1{
-   background-color: rgb(236, 81, 250);
+#how h1 {
+	background-color: rgb(236, 81, 250);
 }
 
 
