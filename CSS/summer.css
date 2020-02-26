@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #A59132;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(252, 220, 61), rgb(233, 55, 1));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(233, 196, 10), rgb(230, 50, 5) ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(11, 12, 0);
+  }
+  
+  ol li{
+    list-style-type: decimal;
+  }
+  html {
+    height: auto;
+    margin-bottom: 175px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  div#main {
+    -webkit-transform: translateX(7%) translateY(-10%);
+            transform: translateX(7%) translateY(-10%);
+    width: 75%;
+    margin: 15% auto;
+  }
+  
+  div#main::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  div#main div#card1,
+  div#main div#card2 {
+    border: outset 5px black;
+    border-radius: 15px;
+    -webkit-box-shadow: black 15px 5px 25px;
+            box-shadow: black 15px 5px 25px;
+    margin-left: 15px;
+    margin-right: 45px;
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  
+  
+  div#main ul,
+  div#main ol {
+    padding: 1% 10%;
+  }
+  
+  div#main img {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  
+  div#main h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 175%;
+  }
+  
+  div#main #text {
+    margin-top: -115px;
+    font-weight: 600;
+    text-align: left;
+    padding: 5px 15px;
+    font-size: 1.25em;
+  }
+  
+  hr {
+    width: 100%;
+  }
+  
+  #text li {
+    font-size: 1.55em;
+    line-height: 102%;
+  }
+  
+  *[id*="card"] {
+    -webkit-transition: -webkit-transform ease 0.5s;
+    transition: -webkit-transform ease 0.5s;
+    transition: transform ease 0.5s;
+    transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+  }
+  
+  *[id*="card"]:hover {
+    -webkit-transform: scaleX(1.05) scaleY(1.05);
+            transform: scaleX(1.05) scaleY(1.05);
+  }
+  .topnav {
+    background-color: rgba(200, 200, 200, 0.655);
+    overflow: hidden;
+  }
+  div.topnav{
+    position: relative;
+    z-index: 98;
+  }
+  /* Style the links inside the navigation bar */
+  div.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.75em;
+    -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+    transition: background-color 0.5s ease, color 0.565s ease-in;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-size: 100%;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffae00;
+    color: black;
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
+  a {
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+  }
+  
+  @media only screen and (max-width: 1800px) {
+    div#main div#card1,
+    div#main div#card2 {
+      width: 75%;
+      -webkit-transform: translateX(10%);
+              transform: translateX(10%);
+    }
+    div#main #card1 {
+      margin-bottom: 25px;
+    }
+    div#main {
+      -webkit-transform: translateY(-80px);
+              transform: translateY(-80px);
+    }
+    *[class*="nav"] {
+      -webkit-transform: scaleY(1.035);
+              transform: scaleY(1.035);
+    }
+  }    
