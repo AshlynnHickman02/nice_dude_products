@@ -1,0 +1,18 @@
+a[href*="winter"] {
+	transition: color 0.5s ease;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: rgba(255, 255, 255, 0.733);
+}
+a[href*="winter"]:hover {
+	color: white;
+}
+div#main #card2 {
+	background-color: #ef32d9;
+	margin-top: -10px;
+	padding-top: 0px;
+	// transform: translateX(5%);
+}
+// div#main {
+// 	transform: translateX(12%) translateY(-12%);
+// }

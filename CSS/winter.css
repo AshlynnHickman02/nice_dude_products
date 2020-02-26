@@ -1,8 +1,10 @@
 html {
-  height: 100%;
+  height: auto;
+  margin-bottom: 175px;
 }
 
 body {
+  width: 100%;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -12,15 +14,17 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#89fffd), to(#ef32d9));
   background: linear-gradient(to right, #89fffd, #ef32d9);
-  margin-bottom: 15%;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 div#main {
+  -webkit-transform: translateX(7%) translateY(-10%);
+  transform: translateX(7%) translateY(-10%);
   width: 75%;
   margin: 15% auto;
 }
 
-div#main::after, div#cards {
+div#main::after {
   content: "";
   display: table;
   clear: both;
@@ -31,10 +35,10 @@ div#main div#card2 {
   border: outset 5px black;
   border-radius: 15px;
   -webkit-box-shadow: black 15px 5px 25px;
-          box-shadow: black 15px 5px 25px;
+  box-shadow: black 15px 5px 25px;
   margin-left: 15px;
   margin-right: 45px;
-  width: 45%;
+  width: 40%;
   float: left;
   text-align: center;
 }
@@ -45,6 +49,7 @@ div#main #card1 {
 
 div#main #card2 {
   background-color: #ef32d9;
+  padding-top: 0px;
 }
 
 div#main ul,
@@ -55,7 +60,7 @@ div#main ol {
 div#main img {
   height: 50%;
   width: 50%;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 div#main h2 {
@@ -70,11 +75,6 @@ div#main #text {
   text-align: left;
   padding: 5px 15px;
   font-size: 1.25em;
-}
-
-div.main {
-  margin: 0px 0px;
-  padding: 0px;
 }
 
 hr {
@@ -95,7 +95,7 @@ hr {
 
 *[id*="card"]:hover {
   -webkit-transform: scaleX(1.05) scaleY(1.05);
-          transform: scaleX(1.05) scaleY(1.05);
+  transform: scaleX(1.05) scaleY(1.05);
 }
 
 a[href*="Reviews"] {
@@ -109,9 +109,19 @@ a[href*="Reviews"] {
 a[href*="Reviews"]:hover {
   color: white;
 }
+a[href*="winter"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+a[href*="winter"]:hover {
+  color: white;
+}
 
 div#footer {
-  clear: both;
   width: 50%;
   margin: -250px auto;
   text-align: center;
@@ -122,15 +132,368 @@ div#footer button {
   clear: both;
   font-size: 1.5em;
   border-radius: 20px;
+  margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 1880px) {
-  div#main {
-    width: 100%;
-    margin: 20px auto;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(200, 200, 200, 0.655);
+  overflow: hidden;
+}
+
+div.topnav {
+  position: relative;
+  z-index: 98;
+}
+
+/* Style the links inside the navigation bar */
+div.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75em;
+  -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+  transition: background-color 0.5s ease, color 0.565s ease-in;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-size: 100%;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffae00;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+a {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+@media only screen and (max-width: 1800px) {
+  div#main div#card1,
+  div#main div#card2 {
+    width: 75%;
+    -webkit-transform: translateX(10%);
+    transform: translateX(10%);
   }
-  *[id^="card"] {
-    float: middle;
+  div#main #card1 {
+    margin-bottom: 25px;
+  }
+  div#main {
+    -webkit-transform: translateY(-80px);
+    transform: translateY(-80px);
+  }
+  *[class*="nav"] {
+    -webkit-transform: scaleY(1.035);
+    transform: scaleY(1.035);
+  }
+}
+section {
+  height: 100%;
+  z-index: 100;
+}
+
+div.help {
+  position: relative;
+  z-index: 99;
+}
+
+.snow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateY(-30deg);
+          transform: rotateY(-30deg);
+  -webkit-transform: translate3d(50deg);
+          transform: translate3d(50deg);
+  -webkit-transform: rotate3d(1, 1.5, 2, -10deg);
+          transform: rotate3d(1, 1.5, 2, -10deg);
+}
+
+.snow div {
+  position: absolute;
+  display: block;
+}
+
+.snow div:nth-child(1) {
+  left: 20%;
+  -webkit-animation: falling 9s linear infinite;
+          animation: falling 9s linear infinite;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+.snow div:nth-child(2) {
+  left: 70%;
+  -webkit-animation: falling 17s linear infinite;
+          animation: falling 17s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+.snow div:nth-child(3) {
+  left: 10%;
+  -webkit-animation: falling 23s linear infinite;
+          animation: falling 23s linear infinite;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+
+.snow div:nth-child(4) {
+  left: 50%;
+  -webkit-animation: falling 18s linear infinite;
+          animation: falling 18s linear infinite;
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+}
+
+.snow div:nth-child(5) {
+  left: 85%;
+  -webkit-animation: falling 15s linear infinite;
+          animation: falling 15s linear infinite;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+}
+
+.snow div:nth-child(6) {
+  left: 15%;
+  -webkit-animation: falling 12s linear infinite;
+          animation: falling 12s linear infinite;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+
+.snow div:nth-child(7) {
+  left: 90%;
+  -webkit-animation: falling 13s linear infinite;
+          animation: falling 13s linear infinite;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+
+.snow2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.snow2 div {
+  position: absolute;
+  display: block;
+  -webkit-transform: rotateY(-30deg);
+          transform: rotateY(-30deg);
+  -webkit-transform: translate3d(50deg);
+          transform: translate3d(50deg);
+  -webkit-transform: rotate3d(1, 1.5, 2, -15deg);
+          transform: rotate3d(1, 1.5, 2, -15deg);
+}
+
+.snow2 div:nth-child(1) {
+  left: 10%;
+  -webkit-animation: falling 17s linear infinite;
+          animation: falling 17s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+.snow2 div:nth-child(2) {
+  left: 65%;
+  -webkit-animation: falling 15s linear infinite;
+          animation: falling 15s linear infinite;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+.snow2 div:nth-child(3) {
+  left: 17%;
+  -webkit-animation: falling 26s linear infinite;
+          animation: falling 26s linear infinite;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+}
+
+.snow2 div:nth-child(4) {
+  left: 3%;
+  -webkit-animation: falling 19s linear infinite;
+          animation: falling 19s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+.snow2 div:nth-child(5) {
+  left: 75%;
+  -webkit-animation: falling 20s linear infinite;
+          animation: falling 20s linear infinite;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+
+.snow2 div:nth-child(6) {
+  left: 10%;
+  -webkit-animation: falling 17s linear infinite;
+          animation: falling 17s linear infinite;
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+}
+
+.snow2 div:nth-child(7) {
+  left: 80%;
+  -webkit-animation: falling 11s linear infinite;
+          animation: falling 11s linear infinite;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+
+.snow3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.snow3 div {
+  position: absolute;
+  display: block;
+  -webkit-transform: rotateY(-30deg);
+          transform: rotateY(-30deg);
+  -webkit-transform: translate3d(50deg);
+          transform: translate3d(50deg);
+  -webkit-transform: rotate3d(1, 1.5, 2, 10deg);
+          transform: rotate3d(1, 1.5, 2, 10deg);
+}
+
+.snow3 div:nth-child(1) {
+  left: 15%;
+  -webkit-animation: falling 15s linear infinite;
+          animation: falling 15s linear infinite;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+}
+
+.snow3 div:nth-child(2) {
+  left: 25%;
+  -webkit-animation: falling 14s linear infinite;
+          animation: falling 14s linear infinite;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+
+.snow3 div:nth-child(3) {
+  left: 30%;
+  -webkit-animation: falling 20s linear infinite;
+          animation: falling 20s linear infinite;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+
+.snow3 div:nth-child(4) {
+  left: 85%;
+  -webkit-animation: falling 12s linear infinite;
+          animation: falling 12s linear infinite;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+}
+
+.snow3 div:nth-child(5) {
+  left: 78%;
+  -webkit-animation: falling 11s linear infinite;
+          animation: falling 11s linear infinite;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+
+.snow3 div:nth-child(6) {
+  left: 30%;
+  -webkit-animation: falling 16s linear infinite;
+          animation: falling 16s linear infinite;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+}
+
+.snow3 div:nth-child(7) {
+  left: 92%;
+  -webkit-animation: falling 15s linear infinite;
+          animation: falling 15s linear infinite;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+}
+
+@-webkit-keyframes falling {
+  0% {
+    opacity: 1;
+    top: -10%;
+    -webkit-transform: translateX 5px rotateX(0deg);
+            transform: translateX 5px rotateX(0deg);
+  }
+  15% {
+    opacity: 0.7;
+    -webkit-transform: translateX -100px rotateX(30deg);
+            transform: translateX -100px rotateX(30deg);
+  }
+  30% {
+    -webkit-transform: translateX -100px rotateX(70deg);
+            transform: translateX -100px rotateX(70deg);
+  }
+  60% {
+    -webkit-transform: translateX -100px rotateX(45);
+            transform: translateX -100px rotateX(45);
+  }
+  75% {
+    -webkit-transform: translateX -100px rotateX(60deg);
+            transform: translateX -100px rotateX(60deg);
+  }
+  100% {
+    top: 110%;
+    -webkit-transform: translateX -100px rotateX(200deg);
+            transform: translateX -100px rotateX(200deg);
+  }
+}
+
+@keyframes falling {
+  0% {
+    opacity: 1;
+    top: -10%;
+    -webkit-transform: translateX 5px rotateX(0deg);
+            transform: translateX 5px rotateX(0deg);
+  }
+  15% {
+    opacity: 0.7;
+    -webkit-transform: translateX -100px rotateX(30deg);
+            transform: translateX -100px rotateX(30deg);
+  }
+  30% {
+    -webkit-transform: translateX -100px rotateX(70deg);
+            transform: translateX -100px rotateX(70deg);
+  }
+  60% {
+    -webkit-transform: translateX -100px rotateX(45);
+            transform: translateX -100px rotateX(45);
+  }
+  75% {
+    -webkit-transform: translateX -100px rotateX(60deg);
+            transform: translateX -100px rotateX(60deg);
+  }
+  100% {
+    top: 110%;
+    -webkit-transform: translateX -100px rotateX(200deg);
+            transform: translateX -100px rotateX(200deg);
   }
 }
 /*# sourceMappingURL=winter.css.map */

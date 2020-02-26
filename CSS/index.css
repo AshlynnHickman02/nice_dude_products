@@ -74,6 +74,7 @@ header h1 {
     background-color: rgb(152, 224, 226);
 }
 
+
 /* body styles */
 body div {
 	width: 80%;
@@ -113,10 +114,47 @@ a{
 	background-color: rgb(236, 81, 250);
 }
 
-
 /* footer styles */
-footer{
-   color: grey;
-   font-size: 10px;
-   text-align: center;
+footer {
+	color: grey;
+	font-size: .8em;
+	text-align: center;
 }
+.topnav {
+   background-color: rgba(200, 200, 200, 0.655);
+   overflow: hidden;
+ }
+ div.topnav{
+   position: relative;
+   z-index: 98;
+ }
+ /* Style the links inside the navigation bar */
+ div.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 1.75em;
+   -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+   transition: background-color 0.5s ease, color 0.565s ease-in;
+ }
+ 
+ /* Change the color of links on hover */
+ .topnav a:hover {
+   background-size: 100%;
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   background-color: #ffae00;
+   color: black;
+ }
+ 
+ /* Right-aligned section inside the top navigation */
+ .topnav-right {
+   float: right;
+ }
+ 
