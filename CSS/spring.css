@@ -6,11 +6,12 @@ font-family: 'Montserrat', sans-serif;  */
 a{
     text-decoration: none;
 }
-
 html{
     font-family: 'Montserrat', sans-serif; 
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* header styles */
@@ -114,7 +115,7 @@ body:not(#bar){
     background-attachment: fixed;
     background: #FFEF9F;
     background: -webkit-gradient(linear-gradient((#FFEF9F),(#FFD6E0)));
-    background: linear-gradient(#FFEF9F, #FFD6E0);
+    background: no-repeat fixed linear-gradient(#FFEF9F, #FFD6E0);
     margin-bottom: 15%;
 }
 
@@ -258,11 +259,6 @@ div.help{
  }
   
  section{
-  height:100%;
-  width:100%;
-  background: #A1FFCE;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 100;
  }
   
