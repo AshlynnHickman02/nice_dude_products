@@ -67,3 +67,11 @@ function spring() {
     card1.background = stylesArray[7][1];
     card2.background = stylesArray[7][2];
 }
+
+
+var scrollEventHandler = function()
+{
+  window.scroll(0, window.pageYOffset)
+}
+
+window.addEventListener("scroll", scrollEventHandler, false);
