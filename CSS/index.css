@@ -3,87 +3,75 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
-
+a{
+    text-decoration: none;
+}
 html{
-   font-family: 'Montserrat', sans-serif; 
-   height: 100%;
-   width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(229, 255, 228), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* header styles */
 #bar {
-	background-color: rgb(51, 51, 51);
-	height: .4em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    height: .4em;
 }
-#why {
-	color: black;
-}
-header {
-	width: 100%;
+header{
+    z-index: 97;
+    position: relative;
+    width: 100%;
 }
 header img {
-	width: 1em;
+    width: 1em;
 }
-header h1 {
-	padding-top: .3em;
-	padding-left: .4em;
-	height: 2em;
-	font-size: 2em;
-	font-family: 'Nunito', sans-serif;
-	background-color: white;
+header h1 {    
+    color: rgb(51, 51, 51);
+    padding-top: .3em;
+    padding-left: .4em;
+    height: 2em;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    background-color: linear-gradient(#FFD6E0, rgb(204, 185, 209));
 }
-#presentation {
-	width: 70%;
-	margin-left: 15%;
-}
-
+ 
 /* navigation styles */
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
+.topnav {
+    width: 100%;
+    overflow: hidden;
 }
-nav {
-	width: 100%;
+.topnav a {
+    width: 24%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
 }
-nav li {
-	float: left;
-	display: Inline;
-	text-align: center;
-	height: 1.5em;
-	width: 20em;
+#springish{
+    color: white;
+    background-color: pink;
 }
-#spring{
-	color: rgb(253, 252, 252);
-	background-color: rgb(240, 150, 248);
+#springish:hover{
+   color: white;
+   background-color: rgb(240, 150, 248);
 }
-#spring:hover {
-	color: rgb(226, 223, 223);
-	background-color: rgb(210, 150, 216);
+#summerish{
+    color: rgb(51, 51, 51);
+    background-color: yellow;
 }
-#summer {
-	background-color: rgb(255, 255, 43);
-	color: rgb(49, 49, 49);
+#fallish{
+    color: rgb(51, 51, 51);
+    background-color: orange;
 }
-#summer:hover {
-	color: black;
-	background-color: rgb(236, 236, 72);
-}
-#fall {
-	background-color: orange;
-	color: rgb(49, 49, 49);
-}
-#fall:hover {
-	background-color: rgb(223, 147, 6);
-	color: black;
-}
-#winter {
-	background-color: rgb(114, 241, 250);
-	color: rgb(49, 49, 49);
-}
-#winter:hover {
-	background-color: rgb(100, 205, 212);
-	color: black;
+#winterish{    
+    color: rgb(51, 51, 51);
+    background-color: rgb(152, 224, 226);
 }
 
 /* body styles */
@@ -102,94 +90,12 @@ body div h1{
 a{
 	text-decoration: none;
 }
-/* spring hover */
-#hovSpring {
-	display: none;
+#presentation {
+	width: 70%;
+   margin-left: 15%;
+   border: .2em solid pink;
+   border-radius: 1em;
 }
-#hovSpring:hover {
-	display: block;
-	background-color: rgb(51, 51, 51);
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#hovSpring img {
-	margin-left: 25;
-	background-color: rgb(243, 217, 239);
-	border: solid rgb(210, 150, 216) 2px;
-	border-radius: 5px;
-}
-#hovSpring h1 {
-	font-size: 2em;
-	margin: 5px;
-}
-
-/* summer hover */
-#hovSummer {
-	display: none;
-}
-#hovSummer:hover {
-	display: block;
-	background-color: rgb(51, 51, 51);
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#hovSummer img {
-	margin-left: 25;
-	background-color: rgb(245, 252, 207);
-	border: solid rgb(217, 240, 88) 2px;
-	border-radius: 5px;
-}
-#hovSummer h1 {
-	font-size: 2em;
-	margin: 5px;
-}
-
-/* fall hover */
-#hovFall {
-	display: none;
-}
-#hovFall:hover {
-	display: block;
-	background-color: rgb(51, 51, 51);
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#hovFall img {
-	margin-left: 15;
-	background-color: rgb(238, 205, 175);
-	border: solid rgb(252, 200, 104) 2px;
-	border-radius: 5px;
-}
-#hovFall h1 {
-	font-size: 2em;
-	margin: 5px;
-}
-
-/* winter hover */
-#hovWinter {
-	display: none;
-}
-#hovWinter:hover {
-	display: block;
-	background-color: rgb(51, 51, 51);
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#hovWinter img {
-	margin-left: 20;
-	background-color: rgb(168, 245, 245);
-	border: solid rgb(137, 135, 245) 2px;
-	border-radius: 5px;
-}
-#hovWinter h1 {
-	font-size: 2em;
-	margin: 5px;
-}
-
 /* information */
 #who {
 	margin-top: .8em;
