@@ -17,78 +17,85 @@ html{
 }
 
 /* header styles */
-#bar{
+#bar {
+   padding: 0;
+   margin: 0;
+   width: 100%;
    background-color: rgb(51, 51, 51);
-   height: 5px;
-}
-#why{
-   color: black;
-   font-variant: none;
+   height: .4em;
 }
 header{
+   z-index: 97;
+   position: relative;
    width: 100%;
 }
-header img{
-   width: 25px;
+header img {
+   width: 1em;
 }
-header h1{
-   padding-top: 10px;
-   padding-left: 10px;
-   height: 50px;
-   font-size: 25px;
+header h1 {    
+   color: rgb(51, 51, 51);
+   padding-top: .3em;
+   padding-left: .4em;
+   height: 2em;
+   font-size: 2em;
    font-family: 'Nunito', sans-serif;
-   background-color: white;
+   background-color: linear-gradient(#FFD6E0, rgb(204, 185, 209));
 }
-#presentation{
-   width: 75%;
-   margin-left: 10%;
-   height: 50%;
+/* navigation styles */
+.topnav {
+   width: 100%;
+   overflow: hidden;
+   background-color: rgb(152, 224, 226);
+}
+.topnav a {
+   width: 24%;
+   float: left;
+   text-align: center;
+   padding: .2em;
+   text-decoration: none;
+   font-size: 1.2em;
+}
+#springish{
+   color: white;
+   background-color: pink;
+}
+#summerish{
+   color: rgb(51, 51, 51);
+   background-color: yellow;
+}
+#fallish{
+   color: rgb(51, 51, 51);
+   background-color: orange;
+}
+#winterish{    
+   color: rgb(51, 51, 51);
+   background-color: rgb(152, 224, 226);
 }
 
-/* navigation styles */
-.clearfix::after {
-   content: "";
-   display: table;
-   clear: both;
+/* themes */
+div#theme button{
+   font-family: 'Nunito', sans-serif;
+   list-style-type: none;
+   font-size: 1em;
+   margin: 1em;
+   padding: 3em;
+   border-radius: 100em;
 }
-nav{
-   width: 100%;
+#pink{
+   color: white;
+   background-color: rgb(255, 158, 182);
 }
-nav li{
-   float: left;
-   display: Inline;
-   width: 25%;
-   text-align: center;
-   height: 30px;
+#yellow{
+   color: rgb(51, 51, 51);
+   background-color: rgb(255, 255, 138);
 }
-#spring{
-   color: rgb(253, 252, 252);
-   background-color:rgb(240, 150, 248);
+#green{
+   color: rgb(51, 51, 51);
+   background-color: rgb(120, 233, 120);
 }
-.springg{
-   background-color: rgb(240, 150, 248);
-}
-#spring:hover{
-   color: rgb(226, 223, 223);
-   background-color: rgb(210, 150, 216);
-}
-#summer{
-   background-color: rgb(255, 255, 43);
-   color: rgb(49, 49, 49);
-}
-.summerr{
-   background-color: rgb(255, 255, 43);
-}
-#summer:hover{
-   color: black;
-   background-color: rgb(236, 236, 72);
-}
-#fall{
-   background-color: orange;
-   color: rgb(49, 49, 49);
-}
-.falll{
-   background-color: orange;
+#purple{
+   color: white;
+   background-color: rgb(252, 116, 252);
 }
 #fall:hover{
    background-color: rgb(223, 147, 6);
@@ -105,6 +112,7 @@ nav li{
    background-color: rgb(100, 205, 212);
    color: black;
 }
+
 
 /* body styles */
 body div{

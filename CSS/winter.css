@@ -109,6 +109,17 @@ a[href*="Reviews"] {
 a[href*="Reviews"]:hover {
   color: white;
 }
+a[href*="winter"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+a[href*="winter"]:hover {
+  color: white;
+}
 
 div#footer {
   width: 50%;
