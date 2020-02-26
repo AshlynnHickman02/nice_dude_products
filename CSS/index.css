@@ -3,123 +3,84 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Montserrat', sans-serif;  */
 
-/* body styles */
-body div#index {
-	width: 80%;
-	padding: 1em;
-	margin: auto;
-   border-radius: 1em;
+a{
+    text-decoration: none;
 }
 html{
-   font-family: 'Montserrat', sans-serif; 
-   height: 100%;
-   width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(229, 255, 228), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* header styles */
 #bar {
-   padding: 0;
-   margin: 0;
-   width: 100%;
-   background-color: rgb(51, 51, 51);
-   height: .4em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    height: .4em;
 }
 header{
-   z-index: 97;
-   position: relative;
-   width: 100%;
+    z-index: 97;
+    position: relative;
+    width: 100%;
 }
 header img {
-   width: 1em;
+    width: 1em;
 }
 header h1 {    
-   color: rgb(51, 51, 51);
-   padding-top: .3em;
-   padding-left: .4em;
-   height: 2em;
-   font-size: 2em;
-   font-family: 'Nunito', sans-serif;
-   background-color: linear-gradient(#FFD6E0, rgb(204, 185, 209));
+    color: rgb(51, 51, 51);
+    padding-top: .3em;
+    padding-left: .4em;
+    height: 2em;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    background-color: linear-gradient(#FFD6E0, rgb(204, 185, 209));
 }
+ 
 /* navigation styles */
 .topnav {
-   width: 100%;
-   overflow: hidden;
-   background-color: rgb(152, 224, 226);
+    width: 100%;
+    overflow: hidden;
 }
 .topnav a {
-   width: 24%;
-   float: left;
-   text-align: center;
-   padding: .2em;
-   text-decoration: none;
-   font-size: 1.2em;
+    width: 24%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
 }
 #springish{
+    color: white;
+    background-color: pink;
+}
+#springish:hover{
    color: white;
-   background-color: pink;
+   background-color: rgb(240, 150, 248);
 }
 #summerish{
-   color: rgb(51, 51, 51);
-   background-color: yellow;
+    color: rgb(51, 51, 51);
+    background-color: yellow;
 }
 #fallish{
-   color: rgb(51, 51, 51);
-   background-color: orange;
+    color: rgb(51, 51, 51);
+    background-color: orange;
 }
 #winterish{    
-   color: rgb(51, 51, 51);
-   background-color: rgb(152, 224, 226);
-}
-
-/* themes */
-div#theme button{
-   font-family: 'Nunito', sans-serif;
-   list-style-type: none;
-   font-size: 1em;
-   margin: 1em;
-   padding: 3em;
-   border-radius: 100em;
-}
-#pink{
-   color: white;
-   background-color: rgb(255, 158, 182);
-}
-#yellow{
-   color: rgb(51, 51, 51);
-   background-color: rgb(255, 255, 138);
-}
-#green{
-   color: rgb(51, 51, 51);
-   background-color: rgb(120, 233, 120);
-}
-#purple{
-   color: white;
-   background-color: rgb(252, 116, 252);
-}
-#fall:hover{
-   background-color: rgb(223, 147, 6);
-   color: black;
-}
-#winter{
-   background-color: rgb(114, 241, 250);
-   color: rgb(49, 49, 49);
-}
-.winterr{
-   background-color: rgb(144, 241, 250);
-}
-#winter:hover{
-   background-color: rgb(100, 205, 212);
-   color: black;
+    color: rgb(51, 51, 51);
+    background-color: rgb(152, 224, 226);
 }
 
 
 /* body styles */
-body div{
-   width: 80%;
-   padding: 15px;
-   margin: auto;
-   border-radius: 10px;
+body div {
+	width: 80%;
+	padding: 1em;
+	margin: auto;
+	border-radius: 1em;
 }
 body div h1{
    margin-left: 10px;
@@ -127,154 +88,30 @@ body div h1{
    padding: 5px;
    height: 35px;
 }
-
-
-/* change html */
-#hovSpring:hover + html{
-   background-color: pink; 
+a{
+	text-decoration: none;
 }
-/* 
-body a{
-   color: white;
-   text-decoration: none;
+#presentation {
+	width: 70%;
+   margin-left: 15%;
+   border: .2em solid pink;
+   border-radius: 1em;
 }
-#hovSpring{
-   opacity: 0;
-   width: 150px;
-   height: 10px;
-   margin-left: 10%;
-}
-
-#hovSpring:hover{
-   opacity: 1;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   width: 50%;
-   height: 100%;
-   margin-left: 25%;
-}
-#hovSpring img{
-   margin-left: 25;
-   background-color: rgb(243, 217, 239);
-   border: solid rgb(210, 150, 216) 2px;
-   border-radius: 5px;
-}
-#hovSpring h1{
-   font-size: 2em; 
-   margin: 5px;
-}
-
-#hovSummer{
-   opacity: 0;
-   width: 10px;
-   height: 10px;
-   margin-left: 25%;
-}
-#hovSummer:hover{
-   opacity: 1;
-   background-color: rgb(51, 51, 51);
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   width: 50%;
-   height: 100%;
-}
-#hovSummer img{
-   margin-left: 25;
-   background-color: rgb(245, 252, 207);
-   border: solid rgb(217, 240, 88) 2px;
-   border-radius: 5px;
-}
-#hovSummer h1{
-   font-size: 2em; 
-   margin: 5px;
-}
-
-#hovFall{
-   opacity: 0;
-   width: 10px;
-   height: 10px;
-   margin-left: 30%;
-}
-#hovFall:hover{
-   opacity: 1;
-   background-color: rgb(51, 51, 51);
-   width: 50%;
-   height: 100%;
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   margin-left: 25%;
->>>>>>> Spring
-}
-body div h1 {
-	margin: .5em;
-	padding: .5em;
-	height: 2em;
-}
-
-#hovFall h1{
-   font-size: 2em; 
-   margin: 5px;
-}
-
-#hovWinter{
-   opacity: 0;
-   width: 10px;
-   height: 10px;
-   margin-left: 40%;
-}
-#hovWinter:hover{
-   opacity: 1;
-   background-color: rgb(51, 51, 51);
-   width: 100%;
-   height: 100%;
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-}
-#hovWinter img{
-   margin-left: 20;
-   background-color: rgb(168, 245, 245);
-   border: solid rgb(137, 135, 245) 2px;
-   border-radius: 5px;
-   width: 100%;
-   height: 100%;
-}
-#hovWinter h1{
-   font-size: 2em; 
-   margin: 5px;
-} */
-
 /* information */
 #who {
-	padding: 8px;
-	/* margin-top: 5px; */
+	margin-top: .8em;
 	border: solid rgb(240, 150, 248) .1em;
-	font-size: 1.25em;
 }
 #who h1 {
-	/* padding-top: -5px; */
-	/* padding: 2px; */
-	text-align: left;
 	background-color: pink;
-	font-size: 1.5em;
-	margin-bottom: 15px;
 }
 
 #how {
-	padding: 8px;
-	/* margin-top: 5px; */
+	margin-top: 10px;
 	border: solid rgb(216, 89, 228) .1em;
-	font-size: 1.25em;
-	transform: translateY(15px);
 }
 #how h1 {
-	/* padding: 2px; */
 	background-color: rgb(236, 81, 250);
-	font-size: 1.5em;
 }
 
 /* footer styles */
