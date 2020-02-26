@@ -65,13 +65,22 @@ header h1 {
     color: rgb(51, 51, 51);
     background-color: yellow;
 }
+#summerish:hover{
+   background-color: rgb(226, 226, 0);
+}
 #fallish{
     color: rgb(51, 51, 51);
     background-color: orange;
 }
+#fallish:hover{
+   background-color: rgb(209, 136, 0);
+}
 #winterish{    
     color: rgb(51, 51, 51);
     background-color: rgb(152, 224, 226);
+}
+#winterish:hover{
+   background-color: rgb(81, 207, 211);
 }
 
 /* body styles */
