@@ -19,9 +19,9 @@ const stylesArray = [
 	[ 'linear-gradient(to right, #694364, #B58BAB)', ' #B0703C', '#CCA772' ], // Mineral
 	[ 'linear-gradient(to right, #472C25, #D4C2B2)', '#EB712F', '#91371B' ], // Spiced
 	[ 'linear-gradient(to right, #D1CEC5, #997C67)', '#DBA72E', '#E3CCA1' ], // Autumn
-	[ 'linear-gradient(to right, #BC8F8F, #F4A460)', '#911e32', '#530d18' ], // Leaf
+	[ 'linear-gradient(to right, #BC8F8F, #F4A460)', '#911e32', '#FF6347' ], // Leaf
 	[ 'linear-gradient(to right, #D9D9D9, #F5B3B4)', '#D15656', '#94353C' ], // Fresh
-	[ 'linear-gradient(to right, #472C25, #B8997F)', '#D94330', '#5C0811' ] // Chili
+	[ 'linear-gradient(to right, #472C25, #B8997F)', '#D94330', '#DC143C' ] // Chili
 ];
 function tan() {
 	body.background = stylesArray[0][0];

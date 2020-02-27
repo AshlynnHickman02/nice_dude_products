@@ -1,39 +1,13 @@
 body {
-<<<<<<< refs/remotes/origin/hgdyv
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background: #a59132; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #a59132, #da7422); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#a59132,
-		#da7422
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: rgb(238, 255, 4);
-}
-ol li {
-	list-style-type: decimal;
-}
-div.topnav {
-	position: relative;
-	z-index: 98;
-}
-div.help {
-	position: absolute;
-	z-index: 99;
-=======
   width: 100%;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: #A59132;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A59132, #DA7422);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A59132, #DA7422 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: rgb(238, 255, 4);
+  background: #694364;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #694364,#B58BAB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #694364, #B58BAB ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(6, 7, 0);
 }
 
 ol li{
@@ -48,13 +22,12 @@ div.topnav{
 div.help{
   position: absolute;
   z-index: 99;
->>>>>>> added summer
 }
 div#main #card1 {
-	background-color: #cc5543;
+	background-color: #B0703C;
 }
 div#main #card2 {
-	background-color: #dbe6af;
+	background-color: #CCA772;
 	padding: 0px;
 }
 div#main img#red {
@@ -64,11 +37,11 @@ div#main img#red {
 	padding-right: 50px;
 }
 li#checkout a {
-	color: rgb(253, 55, 55);
+	color: rgb(162, 2, 255);
 	transition: transform ease 0.5s;
 }
 li#checkout {
-	color: rgb(253, 55, 55);
+	color: rgb(162, 2, 255);
 	transition: transform ease 0.5s;
 }
 li#checkout:hover {
@@ -220,6 +193,10 @@ div.topnav a {
 	font-size: 1.75em;
 	-webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
 	transition: background-color 0.5s ease, color 0.565s ease-in;
+}
+p#price{
+	float: left;
+	padding-left: 60px;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
