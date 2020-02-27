@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* html or general styles */
+html{    
+    background-position: left;
+    background-image: url(/pictures/four-seasons.jpg);
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+section#everything{
+    background-color: rgb(254, 232, 255);
+    box-shadow: -10px 0 7px rgba(51, 51, 51, 0.527),
+                10px 0 7px rgba(51, 51, 51, 0.527);
+}
+
+/* header */
+#bar{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    height: .3em;
+}
+header{
+    z-index: 97;
+    position: relative;
+    width: 100%;
+}
+header h1 {    
+    color: rgb(51, 51, 51);
+    padding-top: .3em;
+    padding-left: .4em;
+    height: 2em;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+}
+header img {
+    width: 1.2em;
+}
+
+/* nav bar */
+.topnav {
+    width: 100%;
+}
+.topnav a{
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 1em;
+    font-size: 1.2em;
+    vertical-align: middle;
+    padding-top: .5em;
+    padding-bottom: 1.3em;
+}
+
+#springish{
+    background-color: rgb(255, 202, 211);
+    color: white;
+}
+#springish:hover {
+    background-color: rgb(255, 181, 193);
+}
+
+#summerish{
+    background-color: yellow;
+    color: rgb(255, 65, 65);
+}
+#summerish:hover{
+    background-color: rgb(233, 233, 64);
+}
+
+#fallish{
+    background-color: orange;
+    color: yellow;
+}
+#fallish:hover{
+    background-color: rgb(219, 159, 46);
+}
+
+#winterish{
+    background-color: rgb(148, 148, 231);
+    color: white;
+}
+#winterish:hover{
+    background-color: rgb(121, 121, 196);
+}
