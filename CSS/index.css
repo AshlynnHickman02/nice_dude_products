@@ -83,6 +83,13 @@ header h1 {
    background-color: rgb(81, 207, 211);
 }
 
+
+/* layout */
+div#picture::after, div#who + div#how {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* body styles */
 body div {
 	width: 80%;
@@ -99,12 +106,8 @@ body div h1{
 a{
 	text-decoration: none;
 }
-#presentation {
-	width: 70%;
-   margin-left: 15%;
-   border: .2em solid pink;
-   border-radius: 1em;
-}
+
+
 /* information */
 #who {
 	margin-top: .8em;
