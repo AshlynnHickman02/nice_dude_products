@@ -1,0 +1,51 @@
+div.topnav {
+  background: #111111;
+  height: 60px;
+  width: 100%;
+  padding: 5px;
+}
+
+div.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.75em;
+  -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
+  transition: background-color 0.5s ease, color 0.565s ease-in;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-size: 100%;
+  background-color: #aaaaaa;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffae00;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  -webkit-clip-path: circle(10% at 5% 60%);
+          clip-path: circle(10% at 5% 60%);
+  cursor: pointer;
+  float: right;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.topnav-right:hover {
+  -webkit-clip-path: circle(100%);
+          clip-path: circle(100%);
+}
+
+a {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+/*# sourceMappingURL=test.css.map */

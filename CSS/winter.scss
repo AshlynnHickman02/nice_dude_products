@@ -140,7 +140,12 @@ div.topnav a {
 }
 /* Right-aligned section inside the top navigation */
 .topnav-right {
+	clip-path: circle(10% at 90% 10%);
 	float: right;
+	transition: all 0.5s ease-in-out;
+}
+.topnav-right:hover {
+	clip-path: circle(100%);
 }
 a {
 	-webkit-transition: background-color 0.5s ease;
