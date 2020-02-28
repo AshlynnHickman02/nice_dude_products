@@ -1,8 +1,13 @@
+$bgColor: rgb(58, 143, 143);
 div.topnav {
 	background: #111111;
 	height: 60px;
-	width: 100%;
-	padding: 5px;
+	width: 95%;
+	padding: 1em;
+	margin: 1% auto;
+	a:nth-of-type(1) {
+		background-color: $bgColor;
+	}
 }
 div.topnav a {
 	float: left;
@@ -11,29 +16,35 @@ div.topnav a {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 1.75em;
-	-webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
-	transition: background-color 0.5s ease, color 0.565s ease-in;
-}
-/* Change the color of links on hover */
-.topnav a:hover {
-	background-size: 100%;
-	background-color: #aaaaaa;
-	color: white;
-}
-/* Add a color to the active/current link */
-.topnav a.active {
-	background-color: #ffae00;
-	color: black;
 }
 /* Right-aligned section inside the top navigation */
 .topnav-right {
-	clip-path: circle(10% at 5% 60%);
-	cursor: pointer;
+	clip-path: circle(7% at 6.5% 47%);
+	cursor: default;
 	float: right;
 	transition: all 0.5s ease-in-out;
+	:nth-child(2),
+	:nth-child(3) {
+		border: 3px solid black;
+	}
 }
 .topnav-right:hover {
-	clip-path: circle(100%);
+	clip-path: circle(90%);
+	a.hover {
+		background-color: black;
+		color: black;
+		border: black;
+	}
+}
+.topnav-right a:nth-of-type(2),
+.topnav-right a:nth-of-type(3) {
+	background-color: $bgColor;
+}
+.hover {
+	transform: translateY(3px) scaleY(1.05);
+	color: black;
+	background-color: aqua;
+	transition: all 0.5s ease-out;
 }
 a {
 	-webkit-transition: background-color 0.5s ease;
