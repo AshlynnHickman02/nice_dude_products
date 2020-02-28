@@ -120,24 +120,6 @@ body {
     text-align: center;
     font-size: 1.5em;
   }
-  
-  div#footer button {
-    clear: both;
-    font-size: 1.5em;
-    border-radius: 20px;
-    margin-bottom: 40px;
-  }
-  
-  /* Add a black background color to the top navigation */
-  .topnav {
-    background-color: rgba(200, 200, 200, 0.655);
-    overflow: hidden;
-  }
-  
-  div.topnav {
-    position: relative;
-    z-index: 98;
-  }
   li#checkout a {
     color: rgb(162, 0, 255);
     transition: transform ease 0.5s;
@@ -153,42 +135,84 @@ body {
   li#checkout a:hover {
     color: rgb(255, 255, 255);
   }
-  /* Style the links inside the navigation bar */
-  div.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.75em;
-    -webkit-transition: background-color 0.5s ease, color 0.565s ease-in;
-    transition: background-color 0.5s ease, color 0.565s ease-in;
-  }
-  p#price{
-    float: left;
-    padding-left: 60px;
-  }
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-size: 100%;
-    background-color: #ddd;
-    color: black;
+  div#footer button {
+    clear: both;
+    font-size: 1.5em;
+    border-radius: 20px;
+    margin-bottom: 40px;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #ffae00;
-    color: black;
+  /* Add a black background color to the top navigation */
+  /* Add a black background color to the top navigation */
+div.topnav {
+	background: #111111;
+	height: 60px;
+	width: 95%;
+	padding: 1em;
+	margin: 1% auto;
+  }
+  
+  div.topnav a:nth-of-type(1) {
+	background-color: #3a8f8f;
+  }
+  
+  div.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.75em;
   }
   
   /* Right-aligned section inside the top navigation */
+  div.topnav {
+	position: relative;
+	z-index: 98;
+  }
+  
   .topnav-right {
-    float: right;
+	-webkit-clip-path: circle(7% at 6.5% 47%);
+			clip-path: circle(7% at 6.5% 47%);
+	cursor: default;
+	float: right;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+  }
+  
+  .topnav-right :nth-child(2),
+  .topnav-right :nth-child(3) {
+	border: 3px solid black;
+  }
+  
+  .topnav-right:hover {
+	-webkit-clip-path: circle(90%);
+			clip-path: circle(90%);
+  }
+  
+  .topnav-right:hover a.hover {
+	background-color: black;
+	color: black;
+	border: black;
+  }
+  
+  .topnav-right a:nth-of-type(2),
+  .topnav-right a:nth-of-type(3) {
+	background-color: #3a8f8f;
+  }
+  
+  .hover {
+	-webkit-transform: translateY(3px) scaleY(1.05);
+			transform: translateY(3px) scaleY(1.05);
+	color: black;
+	background-color: aqua;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
   }
   
   a {
-    -webkit-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
   }
   
   @media only screen and (max-width: 1800px) {

@@ -17,6 +17,21 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+li#checkout a {
+	color: rgb(162, 2, 255);
+	transition: transform ease 0.5s;
+}
+li#checkout {
+	color: rgb(162, 2, 255);
+	transition: transform ease 0.5s;
+}
+li#checkout:hover {
+	color: rgb(255, 255, 255);
+	transform: scaleX(1.05) scaleY(1.05);
+}
+li#checkout a:hover {
+	color: rgb(255, 255, 255);
+}
 div#main {
   -webkit-transform: translateX(7%) translateY(-10%);
   transform: translateX(7%) translateY(-10%);
@@ -107,6 +122,17 @@ a[href*="Reviews"] {
 }
 
 a[href*="Reviews"]:hover {
+  color: white;
+}
+a[href*="winter"] {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+a[href*="winter"]:hover {
   color: white;
 }
 
@@ -213,6 +239,10 @@ a {
     -webkit-transform: scaleY(1.035);
     transform: scaleY(1.035);
   }
+}
+p#price{
+  float: left;
+  padding-left: 70px;
 }
 section {
   height: 100%;
@@ -449,37 +479,6 @@ div.help {
           animation-delay: -19s;
 }
 
-@-webkit-keyframes falling {
-  0% {
-    opacity: 1;
-    top: -10%;
-    -webkit-transform: translateX 5px rotateX(0deg);
-            transform: translateX 5px rotateX(0deg);
-  }
-  15% {
-    opacity: 0.7;
-    -webkit-transform: translateX -100px rotateX(30deg);
-            transform: translateX -100px rotateX(30deg);
-  }
-  30% {
-    -webkit-transform: translateX -100px rotateX(70deg);
-            transform: translateX -100px rotateX(70deg);
-  }
-  60% {
-    -webkit-transform: translateX -100px rotateX(45);
-            transform: translateX -100px rotateX(45);
-  }
-  75% {
-    -webkit-transform: translateX -100px rotateX(60deg);
-            transform: translateX -100px rotateX(60deg);
-  }
-  100% {
-    top: 110%;
-    -webkit-transform: translateX -100px rotateX(200deg);
-            transform: translateX -100px rotateX(200deg);
-  }
-}
-
 @keyframes falling {
   0% {
     opacity: 1;
@@ -505,7 +504,7 @@ div.help {
             transform: translateX -100px rotateX(60deg);
   }
   100% {
-    top: 110%;
+    top: 400%;
     -webkit-transform: translateX -100px rotateX(200deg);
             transform: translateX -100px rotateX(200deg);
   }
