@@ -108,16 +108,6 @@ div#footer button {
 	border-radius: 20px;
 	margin-bottom: 40px;
 }
-/* Add a black background color to the top navigation */
-.topnav {
-	background-color: rgba(200, 200, 200, 0.655);
-	overflow: hidden;
-}
-div.topnav {
-	position: relative;
-	z-index: 98;
-}
-/* Style the links inside the navigation bar */
 $bgColor: rgb(58, 143, 143);
 div.topnav {
 	background: #111111;
@@ -138,6 +128,10 @@ div.topnav a {
 	font-size: 1.75em;
 }
 /* Right-aligned section inside the top navigation */
+div.topnav {
+	position: relative;
+	z-index: 98;
+}
 .topnav-right {
 	clip-path: circle(7% at 6.5% 47%);
 	cursor: default;
@@ -161,7 +155,7 @@ div.topnav a {
 	background-color: $bgColor;
 }
 .hover {
-	transform: translateY(3px) scaleY(1);
+	transform: translateY(3px) scaleY(1.05);
 	color: black;
 	background-color: aqua;
 	transition: all 0.5s ease-out;

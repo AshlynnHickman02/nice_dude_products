@@ -124,32 +124,6 @@ div#footer button {
   margin-bottom: 40px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: rgba(200, 200, 200, 0.655);
-  overflow: hidden;
-}
-
-div.topnav {
-  position: relative;
-  z-index: 98;
-}
-li#checkout a {
-	color: rgb(162, 0, 255);
-	transition: transform ease 0.5s;
-}
-li#checkout {
-	color: rgb(162, 0, 255);
-	transition: transform ease 0.5s;
-}
-li#checkout:hover {
-	color: rgb(255, 255, 255);
-	transform: scaleX(1.05) scaleY(1.05);
-}
-li#checkout a:hover {
-	color: rgb(255, 255, 255);
-}
-/* Style the links inside the navigation bar */
 div.topnav {
   background: #111111;
   height: 60px;
@@ -170,17 +144,13 @@ div.topnav a {
   text-decoration: none;
   font-size: 1.75em;
 }
-p#price{
-	float: left;
-	padding-left: 60px;
-}
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-size: 100%;
-  background-color: #ddd;
-  color: black;
 
 /* Right-aligned section inside the top navigation */
+div.topnav {
+  position: relative;
+  z-index: 98;
+}
+
 .topnav-right {
   -webkit-clip-path: circle(7% at 6.5% 47%);
           clip-path: circle(7% at 6.5% 47%);
@@ -212,8 +182,8 @@ p#price{
 }
 
 .hover {
-  -webkit-transform: translateY(3px) scaleY(1);
-          transform: translateY(3px) scaleY(1);
+  -webkit-transform: translateY(3px) scaleY(1.05);
+          transform: translateY(3px) scaleY(1.05);
   color: black;
   background-color: aqua;
   -webkit-transition: all 0.5s ease-out;
@@ -247,7 +217,6 @@ a {
 section {
   height: 100%;
   z-index: 100;
-  overflow: hidden;
 }
 
 div.help {
@@ -486,34 +455,28 @@ div.help {
     top: -10%;
     -webkit-transform: translateX 5px rotateX(0deg);
             transform: translateX 5px rotateX(0deg);
-            transform: rotateZ(5deg);
   }
   15% {
     opacity: 0.7;
     -webkit-transform: translateX -100px rotateX(30deg);
             transform: translateX -100px rotateX(30deg);
-            transform: rotateZ(45deg);
   }
   30% {
     -webkit-transform: translateX -100px rotateX(70deg);
             transform: translateX -100px rotateX(70deg);
-            transform: rotateZ(90deg);
   }
   60% {
     -webkit-transform: translateX -100px rotateX(45);
             transform: translateX -100px rotateX(45);
-            transform: rotateZ(180deg);
   }
   75% {
     -webkit-transform: translateX -100px rotateX(60deg);
             transform: translateX -100px rotateX(60deg);
-            transform: rotateZ(270deg);
   }
   100% {
     top: 110%;
     -webkit-transform: translateX -100px rotateX(200deg);
             transform: translateX -100px rotateX(200deg);
-            transform: rotateZ(360deg);
   }
 }
 
@@ -534,15 +497,15 @@ div.help {
             transform: translateX -100px rotateX(70deg);
   }
   60% {
-    -webkit-transform: translateX -100px rotateX(45deg);
-            transform: translateX -100px rotateX(45deg);
+    -webkit-transform: translateX -100px rotateX(45);
+            transform: translateX -100px rotateX(45);
   }
   75% {
     -webkit-transform: translateX -100px rotateX(60deg);
             transform: translateX -100px rotateX(60deg);
   }
   100% {
-    top: 400%;
+    top: 110%;
     -webkit-transform: translateX -100px rotateX(200deg);
             transform: translateX -100px rotateX(200deg);
   }
