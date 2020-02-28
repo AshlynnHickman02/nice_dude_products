@@ -15,10 +15,6 @@ ol li{
 }
 
 
-div.topnav{
-  position: relative;
-  z-index: 98;
-}
 div.help{
   position: absolute;
   z-index: 99;
@@ -402,13 +398,13 @@ section {
 		transform: translateX (-100px) rotateX(70deg);
 	}
 	60% {
-		transform: translateX (-100px) rotateX(45);
+		transform: translateX (-100px) rotateX(45deg);
 	}
 	75% {
 		transform: translateX (-100px) rotateX(60deg);
 	}
 	100% {
-		top: 110%;
+		top: 380%;
 		transform: translateX (-100px) rotateX(200deg);
 	}
 }
